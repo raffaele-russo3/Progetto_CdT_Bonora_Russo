@@ -1,0 +1,1902 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="trasformazione_xsl.xsl"?>
+
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+
+<TEI xml:lang="it"
+      xmlns="http://www.tei-c.org/ns/1.0">
+
+      <teiHeader>
+            <fileDesc>
+                  <titleStmt>
+                        <title xml:id="titolo_generale">Raccolta di articoli della Rassegna Settimanale</title>
+                        <respStmt>
+                              <resp>Codifica TEI realizzata da:</resp>
+                              <name xml:id="Raffaele">Raffaele Russo</name>
+                              <name xml:id="Veronica">Veronica Bonora</name>
+                        </respStmt>
+                  </titleStmt>
+
+                  <publicationStmt>
+                        <publisher>Universita' di Pisa</publisher>
+                        <pubPlace>Pisa</pubPlace>
+                        <date>2025</date>
+                  </publicationStmt>
+
+                  <seriesStmt>
+                        <title>Edizione digitale della rivista "La Rassegna Settimanale"</title>
+                        <respStmt>
+                              <resp>coordinata dal professor</resp>
+                              <name xml:id="Professore">Angelo Mario Del Grosso</name>
+                        </respStmt>
+                  </seriesStmt>
+
+                  <notesStmt>
+                        <note xml:id="riferimenti">Per visualizzare la versione digitale della rivista consultare il sito: <ref target="https://rassegnasettimanale.animi.it">https://rassegnasettimanale.animi.it</ref>
+                        </note>
+                  </notesStmt>
+
+                  
+                  <sourceDesc>
+                        <biblStruct type="article">
+                              <analytic xml:id="articolo1">
+                                    <title level="a">Maria Repetti: Amor di donna.
+                                        <ref target="#notaArt1"/>
+                                    </title>
+
+                                    <textLang mainLang="it">Italiano</textLang>
+                              </analytic>
+
+                              <monogr>
+                                 <title level="j">La Rassegna Settimanale</title>
+                                    <imprint>
+                                     <date when="1879">1879</date>
+                                     <biblScope unit="volume">3</biblScope>
+                                     <biblScope unit="fascicolo">54</biblScope>
+                                     <biblScope unit="page">34</biblScope>
+                                    </imprint>
+                              </monogr>
+                        </biblStruct>
+
+                         <biblStruct type="article">
+                              <analytic xml:id="articolo2">
+                                    <title level="a">I libri di testo nelle scuole secondarie.</title>
+                                    <textLang mainLang="it">Italiano</textLang>
+                              </analytic>
+                              <monogr>
+                                 <title level="j">La Rassegna Settimanale</title>
+                                    <imprint>
+                                     <date when="1879">1879</date>
+                                     <biblScope unit="volume">3</biblScope>
+                                     <biblScope unit="fascicolo">59</biblScope>
+                                     <biblScope unit="page">137-138</biblScope>
+                                    </imprint>
+                              </monogr>
+                        </biblStruct>
+
+                        <biblStruct type="article">
+                              <analytic xml:id="articolo3">
+                                    <title level="a">La tutela della vita degli operai.</title>
+                                    <title type="sub">Corrispondenza da Milano.</title>
+                                    <textLang mainLang="it">Italiano</textLang>
+                              </analytic>
+                              <monogr>
+                                 <title level="j">La Rassegna Settimanale</title>
+                                    <imprint>
+                                     <date when="1879">1879</date>
+                                     <biblScope unit="volume">4</biblScope>
+                                     <biblScope unit="fascicolo">87</biblScope>
+                                     <biblScope unit="page">148</biblScope>
+                                    </imprint>
+                              </monogr>
+                        </biblStruct>
+
+                        <biblStruct type="bibliography"> 
+                              <analytic xml:id="bibliografia1">
+                                   <title level="a">Bibliografia.</title> 
+                                   <title type="sub">Letteratura.</title>
+                                   <author>
+                                          <persName>P.G. Molmenti</persName>
+                                    </author>
+                                    <title level="m">Nuove impressioni letterarie.</title>
+                                    <date>1878</date>
+                                    <textLang mainLang="it">Italiano</textLang>
+                              </analytic>
+                              <monogr>
+                                 <title level="j">La Rassegna Settimanale</title>
+                                    <imprint>
+                                     <date when="1879">1879</date>
+                                     <biblScope unit="volume">3</biblScope>
+                                     <biblScope unit="fascicolo">60</biblScope>
+                                     <biblScope unit="page">156-157</biblScope>
+                                    </imprint>
+                              </monogr>
+                        </biblStruct>
+
+                        <biblStruct type="bibliography"> 
+                              <analytic xml:id="bibliografia2">
+                                    <title level="a">Bibliografia.</title> 
+                                    <author>
+                                          <persName>Luigi Capuana</persName>
+                                    </author>
+                                    <title level="m">Un bacio.</title>
+                                    <date>1881</date>
+                              </analytic>
+                              <monogr>
+                                 <title level="j">La Rassegna Settimanale</title>
+                                    <imprint>
+                                     <date when="1881">1881</date>
+                                     <biblScope unit="volume">8</biblScope>
+                                     <biblScope unit="fascicolo">194</biblScope>
+                                     <biblScope unit="page">190</biblScope>
+                                    </imprint>
+                              </monogr>
+                        </biblStruct>
+
+                        <biblStruct type="notice"> 
+                              <analytic xml:id="notizia1">
+                                   <title level="a">Notizie.</title> 
+                                   <textLang mainLang="it">Italiano</textLang>
+                              </analytic>
+                              <monogr>
+                                 <title level="j">La Rassegna Settimanale</title>
+                                    <imprint>
+                                     <date when="1879">1879</date>
+                                     <biblScope unit="volume">3</biblScope>
+                                     <biblScope unit="fascicolo">60</biblScope>
+                                     <biblScope unit="page">190</biblScope>
+                                    </imprint>
+                              </monogr>
+                        </biblStruct>
+
+                        <biblStruct type="notice">  
+                              <analytic xml:id="notizia2">
+                                   <textLang mainLang="it">Italiano</textLang>
+                              </analytic>
+                              <monogr>
+                                 <title level="j">La Rassegna Settimanale</title>
+                                    <imprint>
+                                     <date when="1879">1879</date>
+                                     <biblScope unit="volume">3</biblScope>
+                                     <biblScope unit="fascicolo">60</biblScope>
+                                     <biblScope unit="page">190</biblScope>
+                                    </imprint>
+                              </monogr>     
+                        </biblStruct>
+                  </sourceDesc>   
+            </fileDesc>
+
+      </teiHeader>
+      
+      <facsimile>
+           
+            <surface xml:id="pag34" n="34">
+                  <graphic url='N.54_MariaRepettiAmorDiDonna_Pag.34.png' width='525px' height='760px' />
+                  <zone xml:id="titolo_articolo1" ulx="94" uly="238" lrx="224" lry="244" />
+                  <zone xml:id="riga1_articolo1" ulx="55" uly="249" lrx="277" lry="255" />
+                  <zone xml:id="riga2_articolo1" ulx="38" uly="259" lrx="102" lry="266" />
+                  <zone xml:id="riga3_articolo1" ulx="52" uly="269" lrx="278" lry="275" />
+                  <zone xml:id="riga4_articolo1" ulx="39" uly="281" lrx="275" lry="286" />
+                  <zone xml:id="riga5_articolo1" ulx="37" uly="290" lrx="277" lry="298" />
+                  <zone xml:id="riga6_articolo1" ulx="38" uly="300" lrx="277" lry="307" />
+                  <zone xml:id="riga7_articolo1" ulx="38" uly="310" lrx="277" lry="316" />
+                  <zone xml:id="riga8_articolo1" ulx="38" uly="318" lrx="277" lry="327" />
+                  <zone xml:id="riga9_articolo1" ulx="38" uly="328" lrx="276" lry="337" />
+                  <zone xml:id="riga10_articolo1" ulx="39" uly="341" lrx="77" lry="346" />
+                  <zone xml:id="riga11_articolo1" ulx="54" uly="352" lrx="278" lry="357" />
+                  <zone xml:id="riga12_articolo1" ulx="39" uly="272" lrx="277" lry="279" />
+                  <zone xml:id="riga13_articolo1" ulx="40" uly="279" lrx="94" lry="289" />
+                  <zone xml:id="riga14_articolo1" ulx="53" uly="290" lrx="277" lry="298" />
+                  <zone xml:id="riga15_articolo1" ulx="38" uly="302" lrx="276" lry="310" />
+                  <zone xml:id="riga16_articolo1" ulx="38" uly="311" lrx="276" lry="320" />
+                  <zone xml:id="riga17_articolo1" ulx="38" uly="322" lrx="276" lry="331" />
+                  <zone xml:id="riga18_articolo1" ulx="39" uly="333" lrx="276" lry="340" />
+                  <zone xml:id="riga19_articolo1" ulx="39" uly="342" lrx="276" lry="351" />
+                  <zone xml:id="riga20_articolo1" ulx="39" uly="353" lrx="276" lry="361" />
+                  <zone xml:id="riga21_articolo1" ulx="38" uly="362" lrx="277" lry="371" />
+                  <zone xml:id="riga22_articolo1" ulx="37" uly="374" lrx="277" lry="380" />
+                  <zone xml:id="riga23_articolo1" ulx="38" uly="383" lrx="277" lry="390" />
+                  <zone xml:id="riga24_articolo1" ulx="37" uly="395" lrx="236" lry="401" />
+                  <zone xml:id="riga25_articolo1" ulx="48" uly="405" lrx="276" lry="411" />
+                  <zone xml:id="riga26_articolo1" ulx="37" uly="415" lrx="276" lry="421" />
+                  <zone xml:id="riga27_articolo1" ulx="38" uly="423" lrx="275" lry="432" />
+                  <zone xml:id="riga28_articolo1" ulx="38" uly="434" lrx="276" lry="442" />
+                  <zone xml:id="riga29_articolo1" ulx="37" uly="444" lrx="276" lry="452" />
+                  <zone xml:id="riga30_articolo1" ulx="37" uly="453" lrx="275" lry="462" />
+                  <zone xml:id="riga31_articolo1" ulx="37" uly="464" lrx="109" lry="472" />
+                  <zone xml:id="riga32_articolo1" ulx="49" uly="475" lrx="277" lry="483" />
+                  <zone xml:id="riga33_articolo1" ulx="37" uly="488" lrx="275" lry="494" />
+                  <zone xml:id="riga34_articolo1" ulx="37" uly="497" lrx="275" lry="503" />
+                  <zone xml:id="riga35_articolo1" ulx="38" uly="506" lrx="277" lry="514" />
+                  <zone xml:id="riga36_articolo1" ulx="37" uly="517" lrx="276" lry="524" />
+                  <zone xml:id="riga37_articolo1" ulx="35" uly="528" lrx="274" lry="534" />
+                  <zone xml:id="riga38_articolo1" ulx="37" uly="535" lrx="276" lry="544" />
+                  <zone xml:id="riga39_articolo1" ulx="37" uly="547" lrx="276" lry="554" />
+                  <zone xml:id="riga40_articolo1" ulx="36" uly="556" lrx="274" lry="566" />
+                  <zone xml:id="riga41_articolo1" ulx="36" uly="568" lrx="275" lry="575" />
+                  <zone xml:id="riga42_articolo1" ulx="35" uly="577" lrx="69" lry="584" />
+                  <zone xml:id="riga43_articolo1" ulx="48" uly="587" lrx="275" lry="595" />
+                  <zone xml:id="riga44_articolo1" ulx="36" uly="597" lrx="274" lry="607" />
+                  <zone xml:id="riga45_articolo1" ulx="36" uly="607" lrx="275" lry="616" />
+                  <zone xml:id="riga46_articolo1" ulx="36" uly="617" lrx="95" lry="625" />
+                  <zone xml:id="riga47_articolo1" ulx="49" uly="627" lrx="275" lry="636" />
+                  <zone xml:id="nota48_articolo1" ulx="43" uly="733" lrx="156" lry="743" />
+                  <zone xml:id="riga49_articolo1" ulx="283" uly="65" lrx="522" lry="72" />
+                  <zone xml:id="riga50_articolo1" ulx="284" uly="73" lrx="522" lry="81" />
+                  <zone xml:id="riga51_articolo1" ulx="284" uly="83" lrx="521" lry="91" />
+                  <zone xml:id="riga52_articolo1" ulx="284" uly="93" lrx="522" lry="102" />
+                  <zone xml:id="riga53_articolo1" ulx="284" uly="103" lrx="521" lry="112" />
+                  <zone xml:id="riga54_articolo1" ulx="284" uly="115" lrx="522" lry="122" />
+                  <zone xml:id="riga55_articolo1" ulx="295" uly="124" lrx="521" lry="134" />
+                  <zone xml:id="riga56_articolo1" ulx="284" uly="134" lrx="523" lry="143" />
+                  <zone xml:id="riga57_articolo1" ulx="285" uly="143" lrx="521" lry="152" />
+                  <zone xml:id="riga58_articolo1" ulx="284" uly="153" lrx="522" lry="163" />
+                  <zone xml:id="riga59_articolo1" ulx="284" uly="164" lrx="523" lry="174" />
+                  <zone xml:id="riga60_articolo1" ulx="284" uly="175" lrx="521" lry="183" />
+                  <zone xml:id="riga61_articolo1" ulx="284" uly="185" lrx="520" lry="194" />
+                  <zone xml:id="riga62_articolo1" ulx="284" uly="196" lrx="520" lry="205" />
+
+            </surface>
+
+
+            <surface xml:id="pag137" n="137">
+                  <graphic url='N.59_LibriTestoScuoleSecondarie_P.137.png' width='556px' height='773px' />
+                  <zone xml:id="titolo_articolo2" ulx="27" uly="179" lrx="271" lry="191" />
+                  <zone xml:id="riga1_articolo2" ulx="57" uly="193" lrx="115" lry="201" />
+                  <zone xml:id="riga2_articolo2" ulx="39" uly="201" lrx="271" lry="212" />
+                  <zone xml:id="riga3_articolo2" ulx="27" uly="214" lrx="271" lry="222" />
+                  <zone xml:id="riga4_articolo2" ulx="27" uly="223" lrx="271" lry="233" />
+                  <zone xml:id="riga5_articolo2" ulx="27" uly="235" lrx="271" lry="243" />
+                  <zone xml:id="riga6_articolo2" ulx="27" uly="244" lrx="271" lry="253" />
+                  <zone xml:id="riga7_articolo2" ulx="27" uly="254" lrx="270" lry="265" />
+                  <zone xml:id="riga8_articolo2" ulx="27" uly="267" lrx="269" lry="275" />
+                  <zone xml:id="riga9_articolo2" ulx="27" uly="275" lrx="270" lry="287" />
+                  <zone xml:id="riga10_articolo2" ulx="27" uly="287" lrx="269" lry="296" />
+                  <zone xml:id="riga11_articolo2" ulx="27" uly="297" lrx="270" lry="306" />
+                  <zone xml:id="riga12_articolo2" ulx="27" uly="307" lrx="271" lry="316" />
+                  <zone xml:id="riga13_articolo2" ulx="27" uly="318" lrx="271" lry="328" />
+                  <zone xml:id="riga14_articolo2" ulx="28" uly="329" lrx="270" lry="339" />
+                  <zone xml:id="riga15_articolo2" ulx="29" uly="427" lrx="270" lry="438" />
+                  <zone xml:id="riga16_articolo2" ulx="28" uly="438" lrx="270" lry="448" />
+                  <zone xml:id="riga17_articolo2" ulx="27" uly="449" lrx="269" lry="458" />
+                  <zone xml:id="riga18_articolo2" ulx="26" uly="461" lrx="268" lry="469" />
+                  <zone xml:id="riga19_articolo2" ulx="26" uly="470" lrx="269" lry="479" />
+                  <zone xml:id="riga20_articolo2" ulx="25" uly="480" lrx="268" lry="489" />
+                  <zone xml:id="riga21_articolo2" ulx="27" uly="491" lrx="269" lry="500" />
+                  <zone xml:id="riga22_articolo2" ulx="26" uly="502" lrx="268" lry="510" />
+                  <zone xml:id="riga23_articolo2" ulx="25" uly="512" lrx="269" lry="520" />
+                  <zone xml:id="riga24_articolo2" ulx="25" uly="523" lrx="268" lry="530" />
+                  <zone xml:id="riga25_articolo2" ulx="25" uly="532" lrx="268" lry="541" />
+                  <zone xml:id="riga26_articolo2" ulx="25" uly="542" lrx="268" lry="552" />
+                  <zone xml:id="riga27_articolo2" ulx="25" uly="553" lrx="269" lry="561" />
+                  <zone xml:id="riga28_articolo2" ulx="26" uly="563" lrx="269" lry="572" />
+                  <zone xml:id="riga29_articolo2" ulx="27" uly="573" lrx="269" lry="582" />
+                  <zone xml:id="riga30_articolo2" ulx="24" uly="494" lrx="270" lry="506" />
+                  <zone xml:id="riga31_articolo2" ulx="25" uly="507" lrx="267" lry="516" />
+                  <zone xml:id="riga32_articolo2" ulx="37" uly="516" lrx="268" lry="526" />
+                  <zone xml:id="riga33_articolo2" ulx="24" uly="526" lrx="267" lry="536" />
+                  <zone xml:id="riga34_articolo2" ulx="25" uly="538" lrx="268" lry="546" />
+                  <zone xml:id="riga35_articolo2" ulx="25" uly="548" lrx="266" lry="556" />
+                  <zone xml:id="riga36_articolo2" ulx="25" uly="558" lrx="267" lry="567" />
+                  <zone xml:id="riga37_articolo2" ulx="25" uly="568" lrx="267" lry="578" />
+                  <zone xml:id="riga38_articolo2" ulx="25" uly="578" lrx="117" lry="587" />
+                  <zone xml:id="riga39_articolo2" ulx="37" uly="676" lrx="267" lry="687" />
+                  <zone xml:id="riga40_articolo2" ulx="24" uly="687" lrx="269" lry="696" />
+                  <zone xml:id="riga41_articolo2" ulx="24" uly="696" lrx="267" lry="708" />
+                  <zone xml:id="riga42_articolo2" ulx="24" uly="707" lrx="266" lry="716" />
+                  <zone xml:id="riga43_articolo2" ulx="24" uly="718" lrx="266" lry="727" />
+                  <zone xml:id="riga44_articolo2" ulx="24" uly="727" lrx="267" lry="737" />
+                  <zone xml:id="riga45_articolo2" ulx="24" uly="738" lrx="266" lry="749" />
+                  <zone xml:id="riga46_articolo2" ulx="280" uly="54" lrx="523" lry="64" />
+                  <zone xml:id="riga47_articolo2" ulx="280" uly="64" lrx="523" lry="74" />
+                  <zone xml:id="riga48_articolo2" ulx="280" uly="74" lrx="523" lry="84" />
+                  <zone xml:id="riga49_articolo2" ulx="280" uly="85" lrx="524" lry="94" />
+                  <zone xml:id="riga50_articolo2" ulx="280" uly="95" lrx="524" lry="105" />
+                  <zone xml:id="riga51_articolo2" ulx="279" uly="106" lrx="522" lry="114" />
+                  <zone xml:id="riga52_articolo2" ulx="279" uly="116" lrx="522" lry="126" />
+                  <zone xml:id="riga53_articolo2" ulx="279" uly="128" lrx="521" lry="136" />
+                  <zone xml:id="riga54_articolo2" ulx="279" uly="138" lrx="521" lry="146" />
+                  <zone xml:id="riga55_articolo2" ulx="279" uly="148" lrx="521" lry="157" />
+                  <zone xml:id="riga56_articolo2" ulx="279" uly="158" lrx="522" lry="166" />
+                  <zone xml:id="riga57_articolo2" ulx="278" uly="168" lrx="520" lry="177" />
+                  <zone xml:id="riga58_articolo2" ulx="278" uly="178" lrx="520" lry="188" />
+                  <zone xml:id="riga59_articolo2" ulx="278" uly="190" lrx="520" lry="199" />
+                  <zone xml:id="riga60_articolo2" ulx="278" uly="200" lrx="520" lry="208" />
+                  <zone xml:id="riga61_articolo2" ulx="278" uly="209" lrx="520" lry="220" />
+                  <zone xml:id="riga62_articolo2" ulx="277" uly="220" lrx="520" lry="230" />
+                  <zone xml:id="riga63_articolo2" ulx="277" uly="232" lrx="521" lry="240" />
+                  <zone xml:id="riga64_articolo2" ulx="277" uly="241" lrx="521" lry="250" />
+                  <zone xml:id="riga65_articolo2" ulx="277" uly="251" lrx="519" lry="261" />
+                  <zone xml:id="riga66_articolo2" ulx="277" uly="262" lrx="520" lry="271" />
+                  <zone xml:id="riga67_articolo2" ulx="277" uly="273" lrx="520" lry="282" />
+                  <zone xml:id="riga68_articolo2" ulx="289" uly="193" lrx="521" lry="203" />
+                  <zone xml:id="riga69_articolo2" ulx="275" uly="204" lrx="521" lry="213" />
+                  <zone xml:id="riga70_articolo2" ulx="275" uly="214" lrx="521" lry="222" />
+                  <zone xml:id="riga71_articolo2" ulx="275" uly="223" lrx="519" lry="233" />
+                  <zone xml:id="riga72_articolo2" ulx="276" uly="235" lrx="519" lry="244" />
+                  <zone xml:id="riga73_articolo2" ulx="277" uly="246" lrx="520" lry="254" />
+                  <zone xml:id="riga74_articolo2" ulx="277" uly="256" lrx="518" lry="265" />
+                  <zone xml:id="riga75_articolo2" ulx="278" uly="267" lrx="518" lry="276" />
+                  <zone xml:id="riga76_articolo2" ulx="277" uly="278" lrx="518" lry="286" />
+                  <zone xml:id="riga77_articolo2" ulx="277" uly="288" lrx="518" lry="298" />
+                  <zone xml:id="riga78_articolo2" ulx="277" uly="299" lrx="518" lry="306" />
+                  <zone xml:id="riga79_articolo2" ulx="277" uly="308" lrx="518" lry="318" />
+                  <zone xml:id="riga80_articolo2" ulx="277" uly="320" lrx="519" lry="328" />
+                  <zone xml:id="riga81_articolo2" ulx="277" uly="329" lrx="519" lry="338" />
+                  <zone xml:id="riga82_articolo2" ulx="276" uly="340" lrx="519" lry="349" />
+                  <zone xml:id="riga83_articolo2" ulx="277" uly="350" lrx="519" lry="358" />
+                  <zone xml:id="riga84_articolo2" ulx="277" uly="361" lrx="517" lry="369" />
+                  <zone xml:id="riga85_articolo2" ulx="277" uly="371" lrx="518" lry="380" />
+                  <zone xml:id="riga86_articolo2" ulx="276" uly="381" lrx="517" lry="390" />
+                  <zone xml:id="riga87_articolo2" ulx="276" uly="392" lrx="517" lry="400" />
+                  <zone xml:id="riga88_articolo2" ulx="276" uly="402" lrx="517" lry="412" />
+                  <zone xml:id="riga89_articolo2" ulx="274" uly="411" lrx="516" lry="422" />
+                  <zone xml:id="riga90_articolo2" ulx="276" uly="422" lrx="518" lry="432" />
+                  <zone xml:id="riga91_articolo2" ulx="276" uly="434" lrx="517" lry="443" />
+                  <zone xml:id="riga92_articolo2" ulx="276" uly="443" lrx="516" lry="454" />
+                  <zone xml:id="riga93_articolo2" ulx="276" uly="454" lrx="516" lry="463" />
+                  <zone xml:id="riga94_articolo2" ulx="276" uly="464" lrx="517" lry="474" />
+                  <zone xml:id="riga95_articolo2" ulx="276" uly="475" lrx="517" lry="484" />
+                  <zone xml:id="riga96_articolo2" ulx="277" uly="485" lrx="519" lry="494" />
+                  <zone xml:id="riga97_articolo2" ulx="276" uly="495" lrx="516" lry="504" />
+                  <zone xml:id="riga98_articolo2" ulx="277" uly="506" lrx="517" lry="517" />
+                  <zone xml:id="riga99_articolo2" ulx="277" uly="517" lrx="516" lry="526" />
+                  <zone xml:id="riga100_articolo2" ulx="276" uly="526" lrx="516" lry="536" />
+                  <zone xml:id="riga101_articolo2" ulx="276" uly="537" lrx="517" lry="546" />
+                  <zone xml:id="riga102_articolo2" ulx="276" uly="546" lrx="518" lry="556" />
+                  <zone xml:id="riga103_articolo2" ulx="276" uly="558" lrx="517" lry="566" />
+                  <zone xml:id="riga104_articolo2" ulx="276" uly="567" lrx="517" lry="576" />
+                  <zone xml:id="riga105_articolo2" ulx="275" uly="578" lrx="517" lry="587" />
+                  <zone xml:id="riga106_articolo2" ulx="275" uly="588" lrx="515" lry="596" />
+                  <zone xml:id="riga107_articolo2" ulx="276" uly="599" lrx="516" lry="607" />
+                  <zone xml:id="riga108_articolo2" ulx="275" uly="609" lrx="516" lry="618" />
+                  <zone xml:id="riga109_articolo2" ulx="275" uly="621" lrx="516" lry="628" />
+                  <zone xml:id="riga110_articolo2" ulx="274" uly="629" lrx="451" lry="638" />
+                  <zone xml:id="riga111_articolo2" ulx="288" uly="639" lrx="514" lry="650" />
+                  <zone xml:id="riga112_articolo2" ulx="273" uly="650" lrx="515" lry="660" />
+            </surface>
+
+
+            <surface xml:id="pag138" n="138">
+                  <graphic url='N.59_LibritestoScuoleSecondarie_P.138.png' width='542px' height='747px' />
+                  <zone xml:id="riga113_articolo2" ulx="43" uly="48" lrx="285" lry="60" />
+                  <zone xml:id="riga114_articolo2" ulx="43" uly="60" lrx="282" lry="70" />
+                  <zone xml:id="riga115_articolo2" ulx="43" uly="71" lrx="283" lry="81" />
+                  <zone xml:id="riga116_articolo2" ulx="43" uly="81" lrx="282" lry="91" />
+                  <zone xml:id="riga117_articolo2" ulx="43" uly="92" lrx="284" lry="102" />
+                  <zone xml:id="riga118_articolo2" ulx="43" uly="103" lrx="283" lry="111" />
+                  <zone xml:id="riga119_articolo2" ulx="43" uly="112" lrx="283" lry="123" />
+                  <zone xml:id="riga120_articolo2" ulx="43" uly="123" lrx="283" lry="131" />
+                  <zone xml:id="riga121_articolo2" ulx="43" uly="134" lrx="283" lry="142" />
+                  <zone xml:id="riga122_articolo2" ulx="42" uly="143" lrx="281" lry="153" />
+                  <zone xml:id="riga123_articolo2" ulx="43" uly="154" lrx="282" lry="163" />
+                  <zone xml:id="riga124_articolo2" ulx="43" uly="163" lrx="283" lry="174" />
+                  <zone xml:id="riga125_articolo2" ulx="43" uly="175" lrx="284" lry="184" />
+                  <zone xml:id="riga126_articolo2" ulx="42" uly="185" lrx="284" lry="195" />
+                  <zone xml:id="riga127_articolo2" ulx="42" uly="105" lrx="283" lry="115" />
+                  <zone xml:id="riga128_articolo2" ulx="42" uly="117" lrx="283" lry="126" />
+                  <zone xml:id="riga129_articolo2" ulx="43" uly="126" lrx="284" lry="137" />
+                  <zone xml:id="riga130_articolo2" ulx="42" uly="137" lrx="283" lry="147" />
+                  <zone xml:id="riga131_articolo2" ulx="42" uly="147" lrx="284" lry="158" />
+                  <zone xml:id="riga132_articolo2" ulx="42" uly="158" lrx="283" lry="167" />
+                  <zone xml:id="riga133_articolo2" ulx="42" uly="167" lrx="284" lry="179" />
+                  <zone xml:id="riga134_articolo2" ulx="42" uly="179" lrx="284" lry="188" />
+                  <zone xml:id="riga135_articolo2" ulx="42" uly="189" lrx="283" lry="199" />
+                  <zone xml:id="riga136_articolo2" ulx="42" uly="200" lrx="284" lry="209" />
+                  <zone xml:id="riga137_articolo2" ulx="41" uly="209" lrx="285" lry="221" />
+                  <zone xml:id="riga138_articolo2" ulx="43" uly="221" lrx="284" lry="229" />
+                  <zone xml:id="riga139_articolo2" ulx="43" uly="232" lrx="284" lry="239" />
+                  <zone xml:id="riga140_articolo2" ulx="43" uly="241" lrx="285" lry="251" />
+                  <zone xml:id="riga141_articolo2" ulx="55" uly="251" lrx="284" lry="260" />
+                  <zone xml:id="riga142_articolo2" ulx="41" uly="262" lrx="284" lry="271" />
+                  <zone xml:id="riga143_articolo2" ulx="43" uly="273" lrx="187" lry="281" />
+                  <zone xml:id="riga144_articolo2" ulx="55" uly="283" lrx="284" lry="292" />
+                  <zone xml:id="riga145_articolo2" ulx="42" uly="293" lrx="285" lry="303" />
+                  <zone xml:id="riga146_articolo2" ulx="43" uly="304" lrx="284" lry="313" />
+                  <zone xml:id="riga147_articolo2" ulx="43" uly="315" lrx="283" lry="323" />
+                  <zone xml:id="riga148_articolo2" ulx="42" uly="324" lrx="285" lry="334" />
+                  <zone xml:id="riga149_articolo2" ulx="43" uly="334" lrx="271" lry="344" />
+                  <zone xml:id="riga150_articolo2" ulx="224" uly="345" lrx="271" lry="354" />
+
+            </surface>
+
+
+            <surface xml:id="pag148" n="148">
+                  <graphic url='N.87_LaTutelaDellaVitaDegliOperai_P.148.png' width='545px' height='741px' />
+                  <zone xml:id="titolo1_articolo3" ulx="54" uly="287" lrx="276" lry="296" />
+                  <zone xml:id="titolo2_articolo3" ulx="105" uly="298" lrx="224" lry="308" />
+                  <zone xml:id="riga1_articolo3" ulx="221" uly="219" lrx="274" lry="227" />
+                  <zone xml:id="riga2_articolo3" ulx="58" uly="316" lrx="283" lry="327" />
+                  <zone xml:id="riga3_articolo3" ulx="47" uly="328" lrx="283" lry="336" />
+                  <zone xml:id="riga4_articolo3" ulx="47" uly="336" lrx="284" lry="346" />
+                  <zone xml:id="riga5_articolo3" ulx="49" uly="348" lrx="282" lry="357" />
+                  <zone xml:id="riga6_articolo3" ulx="49" uly="358" lrx="284" lry="368" />
+                  <zone xml:id="riga7_articolo3" ulx="46" uly="368" lrx="284" lry="377" />
+                  <zone xml:id="riga8_articolo3" ulx="48" uly="377" lrx="283" lry="388" />
+                  <zone xml:id="riga9_articolo3" ulx="49" uly="390" lrx="283" lry="398" />
+                  <zone xml:id="riga10_articolo3" ulx="48" uly="400" lrx="282" lry="408" />
+                  <zone xml:id="riga11_articolo3" ulx="47" uly="409" lrx="281" lry="418" />
+                  <zone xml:id="riga12_articolo3" ulx="47" uly="419" lrx="284" lry="428" />
+                  <zone xml:id="riga13_articolo3" ulx="48" uly="429" lrx="282" lry="439" />
+                  <zone xml:id="riga14_articolo3" ulx="48" uly="438" lrx="283" lry="448" />
+                  <zone xml:id="riga15_articolo3" ulx="47" uly="449" lrx="286" lry="459" />
+                  <zone xml:id="riga16_articolo3" ulx="46" uly="462" lrx="283" lry="468" />
+                  <zone xml:id="riga17_articolo3" ulx="47" uly="471" lrx="129" lry="478" />
+                  <zone xml:id="riga18_articolo3" ulx="60" uly="391" lrx="284" lry="400" />
+                  <zone xml:id="riga19_articolo3" ulx="48" uly="401" lrx="284" lry="409" />
+                  <zone xml:id="riga20_articolo3" ulx="48" uly="411" lrx="285" lry="421" />
+                  <zone xml:id="riga21_articolo3" ulx="48" uly="422" lrx="285" lry="431" />
+                  <zone xml:id="riga22_articolo3" ulx="47" uly="432" lrx="283" lry="440" />
+                  <zone xml:id="riga23_articolo3" ulx="47" uly="442" lrx="284" lry="450" />
+                  <zone xml:id="riga24_articolo3" ulx="49" uly="452" lrx="284" lry="462" />
+                  <zone xml:id="riga25_articolo3" ulx="49" uly="463" lrx="284" lry="471" />
+                  <zone xml:id="riga26_articolo3" ulx="50" uly="473" lrx="283" lry="482" />
+                  <zone xml:id="riga27_articolo3" ulx="48" uly="484" lrx="284" lry="492" />
+                  <zone xml:id="riga28_articolo3" ulx="46" uly="494" lrx="284" lry="502" />
+                  <zone xml:id="riga29_articolo3" ulx="47" uly="503" lrx="284" lry="512" />
+                  <zone xml:id="riga30_articolo3" ulx="49" uly="514" lrx="285" lry="521" />
+                  <zone xml:id="riga31_articolo3" ulx="49" uly="523" lrx="284" lry="532" />
+                  <zone xml:id="riga32_articolo3" ulx="48" uly="533" lrx="285" lry="542" />
+                  <zone xml:id="riga33_articolo3" ulx="48" uly="543" lrx="285" lry="553" />
+                  <zone xml:id="riga34_articolo3" ulx="47" uly="555" lrx="284" lry="561" />
+                  <zone xml:id="riga35_articolo3" ulx="48" uly="563" lrx="285" lry="573" />
+                  <zone xml:id="riga36_articolo3" ulx="48" uly="575" lrx="283" lry="583" />
+                  <zone xml:id="riga37_articolo3" ulx="46" uly="584" lrx="284" lry="594" />
+                  <zone xml:id="riga38_articolo3" ulx="47" uly="595" lrx="284" lry="603" />
+                  <zone xml:id="riga39_articolo3" ulx="48" uly="606" lrx="282" lry="614" />
+                  <zone xml:id="riga40_articolo3" ulx="47" uly="615" lrx="284" lry="624" />
+                  <zone xml:id="riga41_articolo3" ulx="47" uly="626" lrx="120" lry="634" />
+                  <zone xml:id="riga42_articolo3" ulx="60" uly="636" lrx="284" lry="645" />
+                  <zone xml:id="riga43_articolo3" ulx="292" uly="57" lrx="529" lry="66" />
+                  <zone xml:id="riga44_articolo3" ulx="292" uly="65" lrx="529" lry="75" />
+                  <zone xml:id="riga45_articolo3" ulx="291" uly="77" lrx="528" lry="86" />
+                  <zone xml:id="riga46_articolo3" ulx="291" uly="88" lrx="340" lry="96" />
+                  <zone xml:id="riga47_articolo3" ulx="301" uly="97" lrx="529" lry="105" />
+                  <zone xml:id="riga48_articolo3" ulx="290" uly="106" lrx="529" lry="115" />
+                  <zone xml:id="riga49_articolo3" ulx="290" uly="117" lrx="529" lry="126" />
+                  <zone xml:id="riga50_articolo3" ulx="289" uly="128" lrx="526" lry="138" />
+                  <zone xml:id="riga51_articolo3" ulx="289" uly="139" lrx="529" lry="146" />
+                  <zone xml:id="riga52_articolo3" ulx="289" uly="148" lrx="528" lry="155" />
+                  <zone xml:id="riga53_articolo3" ulx="291" uly="156" lrx="529" lry="167" />
+                  <zone xml:id="riga54_articolo3" ulx="291" uly="169" lrx="425" lry="177" />
+                  <zone xml:id="riga55_articolo3" ulx="304" uly="178" lrx="526" lry="186" />
+                  <zone xml:id="riga56_articolo3" ulx="291" uly="187" lrx="529" lry="197" />
+                  <zone xml:id="riga57_articolo3" ulx="292" uly="199" lrx="529" lry="206" />
+                  <zone xml:id="riga58_articolo3" ulx="292" uly="210" lrx="530" lry="217" />
+                  <zone xml:id="riga59_articolo3" ulx="291" uly="218" lrx="527" lry="228" />
+                  <zone xml:id="riga60_articolo3" ulx="290" uly="230" lrx="529" lry="238" />
+                  <zone xml:id="riga61_articolo3" ulx="292" uly="240" lrx="530" lry="248" />
+                  <zone xml:id="riga62_articolo3" ulx="291" uly="251" lrx="456" lry="257" />
+                  <zone xml:id="riga63_articolo3" ulx="303" uly="259" lrx="529" lry="268" />
+                  <zone xml:id="riga64_articolo3" ulx="291" uly="269" lrx="529" lry="277" />
+                  <zone xml:id="riga65_articolo3" ulx="292" uly="278" lrx="529" lry="287" />
+                  <zone xml:id="riga66_articolo3" ulx="292" uly="289" lrx="529" lry="297" />
+                  <zone xml:id="riga67_articolo3" ulx="291" uly="298" lrx="529" lry="307" />
+                  <zone xml:id="riga68_articolo3" ulx="289" uly="308" lrx="528" lry="317" />
+                  <zone xml:id="riga69_articolo3" ulx="291" uly="319" lrx="529" lry="327" />
+                  <zone xml:id="riga70_articolo3" ulx="292" uly="328" lrx="528" lry="338" />
+                  <zone xml:id="riga71_articolo3" ulx="290" uly="339" lrx="529" lry="348" />
+                  <zone xml:id="riga72_articolo3" ulx="292" uly="350" lrx="529" lry="358" />
+                  <zone xml:id="riga73_articolo3" ulx="291" uly="360" lrx="531" lry="369" />
+                  <zone xml:id="riga74_articolo3" ulx="292" uly="370" lrx="528" lry="378" />
+                  <zone xml:id="riga75_articolo3" ulx="291" uly="380" lrx="529" lry="388" />
+                  <zone xml:id="riga76_articolo3" ulx="291" uly="389" lrx="528" lry="398" />
+                  <zone xml:id="riga77_articolo3" ulx="292" uly="400" lrx="529" lry="407" />
+                  <zone xml:id="riga78_articolo3" ulx="292" uly="410" lrx="529" lry="418" />
+                  <zone xml:id="riga79_articolo3" ulx="292" uly="422" lrx="529" lry="429" />
+                  <zone xml:id="riga80_articolo3" ulx="292" uly="432" lrx="531" lry="440" />
+                  <zone xml:id="riga81_articolo3" ulx="293" uly="441" lrx="532" lry="449" />
+                  <zone xml:id="riga82_articolo3" ulx="292" uly="451" lrx="531" lry="459" />
+                  <zone xml:id="riga83_articolo3" ulx="293" uly="462" lrx="531" lry="470" />
+                  <zone xml:id="riga84_articolo3" ulx="291" uly="472" lrx="532" lry="480" />
+                  <zone xml:id="riga85_articolo3" ulx="292" uly="483" lrx="529" lry="491" />
+                  <zone xml:id="nota86_articolo3" ulx="303" uly="726" lrx="517" lry="732" />
+ 
+            </surface>
+
+            <surface xml:id="pag156" n="156">
+                 <graphic url='N.60_Bibliografia_ItemLetteratura_P.156.png' width='520px' height='757px' />
+                 <zone xml:id="titolo1_bibliografia1" ulx="351" uly="642" lrx="429" lry="655" />
+                 <zone xml:id="titolo2_bibliografia1" ulx="360" uly="656" lrx="422" lry="664" />
+                 <zone xml:id="riga1_bibliografia1" ulx="276" uly="665" lrx="505" lry="675" />
+                 <zone xml:id="riga2_bibliografia1" ulx="287" uly="676" lrx="398" lry="684" />
+                 <zone xml:id="riga3_bibliografia1" ulx="287" uly="687" lrx="505" lry="696" />
+                 <zone xml:id="riga4_bibliografia1" ulx="275" uly="697" lrx="504" lry="706" />
+                 <zone xml:id="riga5_bibliografia1" ulx="276" uly="706" lrx="505" lry="716" />
+                 <zone xml:id="riga6_bibliografia1" ulx="276" uly="716" lrx="506" lry="727" />
+
+            </surface>
+
+            <surface xml:id="pag157" n="157">
+                  <graphic url='N.60_Bibliografia_ItemLetteratura_P.157.png' width='508px' height='752px' />
+                  <zone xml:id="riga7_bibliografia1" ulx="13" uly="59" lrx="242" lry="68" />
+                  <zone xml:id="riga8_bibliografia1" ulx="15" uly="71" lrx="242" lry="78" />
+                  <zone xml:id="riga9_bibliografia1" ulx="16" uly="80" lrx="242" lry="88" />
+                  <zone xml:id="riga10_bibliografia1" ulx="15" uly="90" lrx="242" lry="98" />
+                  <zone xml:id="riga11_bibliografia1" ulx="13" uly="100" lrx="241" lry="107" />
+                  <zone xml:id="riga12_bibliografia1" ulx="14" uly="108" lrx="241" lry="116" />
+                  <zone xml:id="riga13_bibliografia1" ulx="17" uly="118" lrx="241" lry="126" />
+                  <zone xml:id="riga14_bibliografia1" ulx="17" uly="129" lrx="241" lry="137" />
+                  <zone xml:id="riga15_bibliografia1" ulx="16" uly="139" lrx="239" lry="146" />
+                  <zone xml:id="riga16_bibliografia1" ulx="14" uly="148" lrx="242" lry="156" />
+                  <zone xml:id="riga17_bibliografia1" ulx="15" uly="157" lrx="242" lry="167" />
+                  <zone xml:id="riga18_bibliografia1" ulx="17" uly="167" lrx="242" lry="175" />
+                  <zone xml:id="riga19_bibliografia1" ulx="16" uly="177" lrx="241" lry="185" />
+                  <zone xml:id="riga20_bibliografia1" ulx="14" uly="187" lrx="241" lry="196" />
+                  <zone xml:id="riga21_bibliografia1" ulx="15" uly="197" lrx="242" lry="205" />
+                  <zone xml:id="riga22_bibliografia1" ulx="13" uly="206" lrx="209" lry="215" />
+
+            </surface>
+ 
+
+
+            <surface xml:id="pag190" n="190">
+                  <graphic url='N.194_Bibliografia_ItemRecensioneLuigiCapuana_P.190.png' width='517px' height='725px' />
+                  <zone xml:id="titolo_bibliografia2" ulx="97" uly="465" lrx="179" lry="476" />
+                  <zone xml:id="riga1_bibliografia2" ulx="18" uly="476" lrx="256" lry="487" />
+                  <zone xml:id="riga2_bibliografia2" ulx="31" uly="488" lrx="73" lry="497" />
+                  <zone xml:id="riga3_bibliografia2" ulx="30" uly="499" lrx="254" lry="508" />
+                  <zone xml:id="riga4_bibliografia2" ulx="18" uly="509" lrx="256" lry="519" />
+                  <zone xml:id="riga5_bibliografia2" ulx="18" uly="519" lrx="256" lry="529" />
+                  <zone xml:id="riga6_bibliografia2" ulx="18" uly="531" lrx="255" lry="538" />
+                  <zone xml:id="riga7_bibliografia2" ulx="18" uly="539" lrx="256" lry="549" />
+                  <zone xml:id="riga8_bibliografia2" ulx="19" uly="549" lrx="256" lry="559" />
+                  <zone xml:id="riga9_bibliografia2" ulx="18" uly="560" lrx="256" lry="570" />
+                  <zone xml:id="riga10_bibliografia2" ulx="18" uly="570" lrx="256" lry="581" />
+                  <zone xml:id="riga11_bibliografia2" ulx="19" uly="580" lrx="255" lry="590" />
+                  <zone xml:id="riga12_bibliografia2" ulx="19" uly="591" lrx="256" lry="600" />
+                  <zone xml:id="riga13_bibliografia2" ulx="18" uly="601" lrx="256" lry="610" />
+                  <zone xml:id="riga14_bibliografia2" ulx="18" uly="611" lrx="256" lry="621" />
+                  <zone xml:id="riga15_bibliografia2" ulx="17" uly="621" lrx="255" lry="631" />
+                  <zone xml:id="riga16_bibliografia2" ulx="18" uly="632" lrx="256" lry="641" />
+                  <zone xml:id="riga17_bibliografia2" ulx="19" uly="641" lrx="256" lry="651" />
+                  <zone xml:id="riga18_bibliografia2" ulx="19" uly="653" lrx="255" lry="661" />
+                  <zone xml:id="riga19_bibliografia2" ulx="19" uly="661" lrx="257" lry="671" />
+                  <zone xml:id="riga20_bibliografia2" ulx="19" uly="671" lrx="256" lry="681" />
+                  <zone xml:id="riga21_bibliografia2" ulx="18" uly="682" lrx="255" lry="691" />
+                  <zone xml:id="riga22_bibliografia2" ulx="18" uly="692" lrx="255" lry="702" />
+                  <zone xml:id="riga23_bibliografia2" ulx="18" uly="703" lrx="255" lry="712" />
+                  <zone xml:id="riga24_bibliografia2" ulx="265" uly="32" lrx="502" lry="42" />
+                  <zone xml:id="riga25_bibliografia2" ulx="265" uly="43" lrx="502" lry="53" />
+                  <zone xml:id="riga26_bibliografia2" ulx="266" uly="54" lrx="502" lry="62" />
+                  <zone xml:id="riga27_bibliografia2" ulx="266" uly="63" lrx="501" lry="72" />
+                  <zone xml:id="riga28_bibliografia2" ulx="266" uly="72" lrx="502" lry="82" />
+                  <zone xml:id="riga29_bibliografia2" ulx="266" uly="83" lrx="503" lry="92" />
+                  <zone xml:id="riga30_bibliografia2" ulx="266" uly="93" lrx="502" lry="103" />
+                  <zone xml:id="riga31_bibliografia2" ulx="266" uly="104" lrx="501" lry="112" />
+                  <zone xml:id="riga32_bibliografia2" ulx="265" uly="114" lrx="502" lry="123" />
+                  <zone xml:id="riga33_bibliografia2" ulx="265" uly="124" lrx="502" lry="134" />
+                  <zone xml:id="riga34_bibliografia2" ulx="266" uly="134" lrx="501" lry="142" />
+                  <zone xml:id="riga35_bibliografia2" ulx="266" uly="145" lrx="501" lry="154" />
+                  <zone xml:id="riga36_bibliografia2" ulx="266" uly="154" lrx="501" lry="164" />
+                  <zone xml:id="riga37_bibliografia2" ulx="265" uly="165" lrx="502" lry="174" />
+                  <zone xml:id="riga38_bibliografia2" ulx="265" uly="175" lrx="503" lry="184" />
+                  <zone xml:id="riga39_bibliografia2" ulx="265" uly="184" lrx="503" lry="194" />
+                  <zone xml:id="riga40_bibliografia2" ulx="265" uly="195" lrx="501" lry="204" />
+                  <zone xml:id="riga41_bibliografia2" ulx="265" uly="204" lrx="501" lry="214" />
+                  <zone xml:id="riga42_bibliografia2" ulx="265" uly="214" lrx="501" lry="224" />
+                  <zone xml:id="riga43_bibliografia2" ulx="265" uly="224" lrx="501" lry="235" />
+                  <zone xml:id="riga44_bibliografia2" ulx="265" uly="235" lrx="502" lry="245" />
+                  <zone xml:id="riga45_bibliografia2" ulx="265" uly="245" lrx="500" lry="256" />
+                  <zone xml:id="riga46_bibliografia2" ulx="265" uly="256" lrx="501" lry="266" />
+                  <zone xml:id="riga47_bibliografia2" ulx="265" uly="265" lrx="502" lry="276" />
+
+            </surface>
+
+            <surface xml:id="pag160" n="160">
+                 <graphic url='N.60_Notizie2Item_P.160.png' width='508px' height='750px' />
+                 <zone xml:id="titolo_notizie" ulx="361" uly="500" lrx="414" lry="509" />
+                 <zone xml:id="riga1_notizia1" ulx="282" uly="512" lrx="500" lry="518" />
+                 <zone xml:id="riga2_notizia1" ulx="272" uly="521" lrx="500" lry="528" />
+                 <zone xml:id="riga3_notizia1" ulx="272" uly="529" lrx="499" lry="537" />
+                 <zone xml:id="riga4_notizia1" ulx="272" uly="538" lrx="499" lry="546" />
+                 <zone xml:id="riga5_notizia1" ulx="273" uly="546" lrx="499" lry="554" />
+                 <zone xml:id="riga6_notizia1" ulx="272" uly="555" lrx="500" lry="564" />
+                 <zone xml:id="riga7_notizia1" ulx="272" uly="565" lrx="500" lry="572" />
+                 <zone xml:id="riga8_notizia1" ulx="272" uly="574" lrx="499" lry="582" />
+                 <zone xml:id="riga9_notizia1" ulx="272" uly="582" lrx="500" lry="590" />
+                 <zone xml:id="riga10_notizia1" ulx="272" uly="591" lrx="500" lry="600" />
+                 <zone xml:id="riga11_notizia2" ulx="280" uly="516" lrx="501" lry="523" />
+                 <zone xml:id="riga12_notizia2" ulx="271" uly="525" lrx="501" lry="531" />
+                 <zone xml:id="riga13_notizia2" ulx="271" uly="531" lrx="499" lry="541" />
+                 <zone xml:id="riga14_notizia2" ulx="272" uly="542" lrx="499" lry="549" />
+                 <zone xml:id="riga15_notizia2" ulx="272" uly="550" lrx="501" lry="558" />
+                 <zone xml:id="riga16_notizia2" ulx="271" uly="559" lrx="501" lry="566" />
+                 <zone xml:id="riga17_notizia2" ulx="273" uly="569" lrx="501" lry="576" />
+                 <zone xml:id="riga18_notizia2" ulx="271" uly="577" lrx="304" lry="584" />
+           
+            </surface>
+
+
+      </facsimile>
+
+      <text>
+            <body>
+
+                  <!--Articolo 1-->
+                  <div type="article" n="1" xml:lang="it" xml:id="Articolo1">
+   <pb n="34" facs="#pag34" />
+   <cb n="1"/>
+   <head rend="uppercase">
+      <lb facs="#titolo_articolo1"/>
+         <persName>MARIA REPETTI</persName>: <title>AMOR DI DONNA</title><note>*1</note>
+   </head>
+   <ab>
+      <lb facs="#riga1_articolo1"/>
+      <title>
+         <hi rend="italic">Amor di donna</hi>
+      </title>
+      e' il secondo libro che pubblica la signora
+      <lb facs="#riga2_articolo1"/>
+      <persName>Maria Repetti</persName>.
+      <lb facs="#riga3_articolo1"/>
+      Il primo fu <title> <hi rend="italic">Olga</hi></title>, un lavoro prolisso, cui l'arte aveva
+      <lb facs="#riga4_articolo1"/>
+      sorriso poco; ma pieno d'affetto e di sentimenti delicati.
+      <lb facs="#riga5_articolo1"/>
+      Svoltando quelle pagine, un po' pesanti e intricate, si sen- <lb break="no"/>
+      <lb facs="#riga6_articolo1"/>
+      tiva di tratto in tratto lo spasimo e il sospiro profondo
+      <lb facs="#riga7_articolo1"/>
+      della donna che si dibatte sotto una sofferenza superiore
+      <lb facs="#riga8_articolo1"/>
+      alle sue forze. I critici pero' in complesso furono poco sen- <lb break= "no"/>
+      <lb facs="#riga9_articolo1"/>
+      sibili a questi pregi delicati, e il libro passo' quasi inos- <lb break="no"/>
+      <lb facs="#riga10_articolo1"/>
+      servato.
+      <lb facs="#riga11_articolo1"/>
+      <title><hi rend="italic">Amor di donna</hi></title> invece fu bene accolto, se non dai critici
+      <lb facs="#riga12_articolo1"/>
+      in generale, da buona parte dei lettori e, singolarmente,
+      <lb facs="#riga13_articolo1"/>
+      delle lettrici.
+      <lb facs="#riga14_articolo1"/>
+      <title><hi rend="italic">Amor di donna</hi></title>, ci vuol poco a capirlo, dice netto e
+      <lb facs="#riga15_articolo1"/>
+      schietto che l'amore e' il supplizio della donna e lo svago
+      <lb facs="#riga16_articolo1"/>
+      dell'uomo: che la donna sola ama, nell'alto senso di questa
+      <lb facs="#riga17_articolo1"/>
+      sublime parola, cioe' a dire, sacrificando tutta se stessa alla
+      <lb facs="#riga18_articolo1"/>
+      felicita' dell'uomo; mentre l'uomo e' sempre un egoista, il
+      <lb facs="#riga19_articolo1"/>
+      quale si cura sovratutto del proprio piacere e del pro- <lb break="no"/>
+      <lb facs="#riga20_articolo1"/>
+      prio interesse. Naturalmente vi sono le eccezioni che con- <lb break="no"/>
+      <lb facs="#riga21_articolo1"/>
+      fermano la regola: vi sono donne uomini, e uomini donne,
+      <lb facs="#riga22_articolo1"/>
+      e, qua e la', alcuni di quegli esseri straordinari che hanno
+      <lb facs="#riga23_articolo1"/>
+      in se' la potenza dell'uomo e la bonta' della donna. La si- <lb break= "no"/>
+      <lb facs="#riga24_articolo1"/>
+      gnora <persName>Repetti</persName> ci mostra la regola e l'eccezione.
+      <lb facs="#riga25_articolo1"/>
+      C'e', tra gli altri personaggi del suo libro, un curato di
+      <lb facs="#riga26_articolo1"/>
+      campagna, il quale ha tutte le squisitezze e le delicatezze
+      <lb facs="#riga27_articolo1"/>
+      del cuore femminile, e la nobile fermezza, la grandezza ge- <lb break="no"/>
+      <lb facs="#riga28_articolo1"/>
+      nerosa che si attribuisce volentieri all'uomo. C'e' poi una
+      <lb facs="#riga29_articolo1"/>
+      donna, <persName type="fictional">Ilda</persName>, di quelle come se ne veggono tante, che ha
+      <lb facs="#riga30_articolo1"/>
+      tutto l'egoismo dell'uomo, e non ama nessuno, e per nes- <lb break="no"/>
+      <lb facs="#riga31_articolo1"/>
+      suno si sacrifica.
+      <lb facs="#riga32_articolo1"/>
+      Ma i personaggi principali sono due donne nobili e
+      <lb facs="#riga33_articolo1"/>
+      grandi, due vere donne, le quali hanno tutte e due la scia- <lb break="no"/>
+      <lb facs="#riga34_articolo1"/>
+      gura d'amare un bel giovinotto, incapace di amare mai piu'
+      <lb facs="#riga35_articolo1"/>
+      altri che se' stesso. E la tesi del libro sembra essere questa:
+      <lb facs="#riga36_articolo1"/>
+      che quanto piu' valore la donna ha in se' stessa, quanto piu'
+      <lb facs="#riga37_articolo1"/>
+      potente e sincero e' l'affetto che offre, tanto piu' e' fatalmente
+      <lb facs="#riga38_articolo1"/>
+      difficile che incontri un uomo capace di ricambiarla e di
+      <lb facs="#riga39_articolo1"/>
+      comprenderla come si merita. Non e' il nostro compito di
+      <lb facs="#riga40_articolo1"/>
+      giudicare la bonta' della tesi, e ci limiteremo a osservare che,
+      <lb facs="#riga41_articolo1"/>
+      buona o cattiva, l'Autore l'ha svolta con mano franca e
+      <lb facs="#riga42_articolo1"/>
+      sicura.
+      <lb facs="#riga43_articolo1"/>
+      <persName type="fictional">Guido Guidi</persName> ha tutte le attrattive esterne, e quel tanto
+      <lb facs="#riga44_articolo1"/>
+      di sensibilita' che basta per rovinare una donna, come dissentiamo
+      <lb facs="#riga45_articolo1"/>
+      di <persName>Lord Byron</persName> una signora che se ne intendeva e lo co- <lb break="no"/>
+      <lb facs="#riga46_articolo1"/>
+      nosceva bene.
+      <lb facs="#riga47_articolo1"/>
+      Tra le due fanciulle egli preferisce <persName type="fictional">Eloisa</persName>, e la sposa;
+      <lb facs="#nota48_articolo1"/>
+      <note>*1
+      <placeName>Milano</placeName>,
+      <persName>Pietro Agnelli</persName>,
+      <date>1878</date>.
+      </note>
+      <lb facs="#riga49_articolo1"/>
+      <cb n="2"/>
+      ma sa cosi' poco comprenderla, e la rende tanto infelice,
+      <lb facs="#riga50_articolo1"/>
+      che la misera si consuma e muore, senza cessar d'amarlo
+      <lb facs="#riga51_articolo1"/>
+      un momento, e senza mai lagnarsi. Questa storia di <persName type="fictional">Eloisa</persName>
+      <lb facs="#riga52_articolo1"/>
+      e' contenuta nel primo volume - <title><hi rend="italic">Era un angelo</hi></title> - il quale
+      <lb facs="#riga53_articolo1"/>
+      ha, come forma artistica, un valore di molto superiore al
+      <lb facs="#riga54_articolo1"/>
+      secondo, un po' arruffato e convenzionale che s'intitola <title><hi rend="italic">Amira</hi></title>.
+      <lb facs="#riga55_articolo1"/>
+      La signora <persName>Repetti</persName> dovrebbe tenersi al genere semplice,
+      <lb facs="#riga56_articolo1"/>
+      alle scene familiari, allo studio minuto di certi caratteri e
+      <lb facs="#riga57_articolo1"/>
+      di certi <hi rend="italic">ambienti</hi> di tutti i giorni; per le quali cose essa ha
+      <lb facs="#riga58_articolo1"/>
+      una singolare attitudine; e dovrebbe lasciare a ingengni piu'
+      <lb facs="#riga59_articolo1"/>
+      volgari o piu' forti i grandi intrecci e le scene preparate.
+      <lb facs="#riga60_articolo1"/>
+      Dovrebbe pure consacrare un certo tempo allo studio della
+      <lb facs="#riga61_articolo1"/>
+      nostra lingua, per troppo generalmente trascurato e che e'
+      <lb facs="#riga62_articolo1"/>
+      tanto necessario alla buona riuscita di un lavoro artistico.
+ 
+   </ab>
+   </div>
+
+ 
+                  <!--Articolo 2-->
+                  <div type="article" n="2" xml:lang="it" xml:id="Articolo2_pt.1">
+                      <pb n="137" facs="#pag137" />
+                      <cb n="1" />
+                      <head rend="uppercase">
+                         <lb facs="#titolo_articolo2" />
+                         I LIBRI DI TESTO NELLE SCUOLE SECONDARIE.
+                      </head>
+                      <ab>
+                         <lb facs="#riga1_articolo2" />
+                          Ai Direttori.
+                        
+                        <lb facs="#riga2_articolo2" />
+                         L'<choice>
+                        <abbr>on.</abbr>
+                        <expan>onorevole</expan>
+                   </choice>
+                   <persName>Bonghi</persName>, quando fu <roleName type="istituzionale">ministro</roleName> della <orgName type="istituzione">Pubblica Istruzione</orgName>,
+                   <lb facs="#riga3_articolo2" />
+                   ordino' che tutti i <roleName type="professione">professori</roleName> delle scuole secondarie adottas-<lb break="no"/>
+                   <lb facs="#riga4_articolo2" />
+                   sero un libro di testo. Ogni <roleName type="professione">insegnante</roleName> era padrone di prendere
+                   <lb facs="#riga5_articolo2" />
+                   quel libro che piu' gli piaceva; poteva anche comporne uno, che'
+                   <lb facs="#riga6_articolo2" />
+                   il <roleName type="istituzionale">Ministro</roleName> gli anticipava i fondi occorrenti per farlo litogra-<lb break="no"/>
+                   <lb facs="#riga7_articolo2" />
+                   fare. Da quattro anni dura un tale stato di cose: son quattro
+                   <lb facs="#riga8_articolo2" />
+                   anni di prova e non mi sembra inutile richiamare nuovamente
+                   <lb facs="#riga9_articolo2" />
+                   l'attenzione delle persone che si occupano d'istruzione sopra
+                   <lb facs="#riga10_articolo2" />
+                   un argomento piu' importante di quanto possa parere a prima
+                   <lb facs="#riga11_articolo2" />
+                   vista. Il <persName>Bonghi</persName> ci dice che visitando molti licei e ginnasi
+                   <lb facs="#riga12_articolo2" />
+                   del regno, noto' che in parecchie scuole l'insegnamento del
+                   <lb facs="#riga13_articolo2" />
+                   <roleName type="professione">professore</roleName> era scompagnato dall'aiuto <quote>« per piu' rispetti uti-<lb break="no"/>
+                   <lb facs="#riga14_articolo2" />
+                   lissimo, che alla sua parola viva e' dato da un libro di testo.» </quote>
+                   <lb facs="#riga15_articolo2" />
+                   <quote>« L'effetto »</quote> continua nella sua circolare, <quote>« di questa mancanza
+                   <lb facs="#riga16_articolo2" />
+                   e' chiarissimo. L'<roleName>alunno</roleName> e' obbligato a prender note, mentre il
+                   <lb facs="#riga17_articolo2" />
+                   <roleName type="professione">professore</roleName> parla. Se cio' nuoce agli <roleName>studenti</roleName> di <orgName type="istituzione">Universita'</orgName>, gia'
+                   <lb facs="#riga18_articolo2" />
+                   piu' provetti, nuoce assai piu' agli <roleName>studenti</roleName> di scuole seconda-<lb break="no"/>
+                   <lb facs="#riga19_articolo2" />
+                   rie. La mente di questi e' distratta dal ragionamento, mediante
+                   <lb facs="#riga20_articolo2" />
+                   il quale il <roleName type="professione">professore</roleName> arriva a mano a mano alle sue conclu-<lb break="no"/>
+                   <lb facs="#riga21_articolo2" />
+                   sioni, per non attendere che a queste. E nel ripetere poi a se'
+                   <lb facs="#riga22_articolo2" />
+                   medesimo la lezione pone molto maggior cura a metter a
+                   <lb facs="#riga23_articolo2" />
+                   mente coteste conclusioni, per quanto gli siano rimaste sulla
+                   <lb facs="#riga24_articolo2" />
+                   carta scarne di illustrazione e di prove, anziche' a riformare
+                   <lb facs="#riga25_articolo2" />
+                   in se' tutto il discorso, nel quale esse avevano realta' e vita.
+                   <lb facs="#riga26_articolo2" />
+                   Ora e' in questo discorso o ragionamento, nell'insieme e con-<lb break="no"/>
+                   <lb facs="#riga27_articolo2" />
+                   testo delle induzioni, delle deduzioni, delle osservazioni di
+                   <lb facs="#riga28_articolo2" />
+                   ogni sorta, che dal giovine si sente e s'avverte il beneficio
+                   <lb facs="#riga29_articolo2" />
+                   dell'insegnamento per la progressiva coltura dello spirito suo.
+                   <lb facs="#riga30_articolo2" />
+                   Quando la lezione gli si converte in poche tesi, prive di luce,
+                   <lb facs="#riga31_articolo2" />
+                   perde ogni valore educativo per l'intelletto e l'animo suo. » </quote>
+                   <lb facs="#riga32_articolo2" />
+                   Ho riportato questo lungo brano della circolare
+                        <abbr>n.</abbr>
+                        <expan>numero</expan>
+                   <num>422</num>,
+                   <lb facs="#riga33_articolo2" />
+                   <date>24 febbraio 1875</date>, perche' ognun possa vedere qual sia il con-<lb break="no"/>
+                   <lb facs="#riga34_articolo2" />
+                   cetto che guido' l'<choice>
+                        <abbr>on.</abbr>
+                        <expan>onorevole</expan>
+                   </choice>
+                   <persName>Bonghi</persName> a ordinare il libro di testo. Non
+                   <lb facs="#riga35_articolo2" />
+                   si vuole che l'<roleName>alunno</roleName> prenda appunti durante la lezione per
+                   <lb facs="#riga36_articolo2" />
+                   tema che non s'afferri bene il discorso o ragionamento dell' 
+                   <roleName type="professione">
+                   <choice>
+                   <orig>in-</orig>
+                   <reg>insegnante</reg>
+                   </choice>
+                   </roleName>
+                   <lb facs="#riga37_articolo2" />
+                   <roleName type="professione">
+                   <choice>
+                   <orig>segnante</orig>
+                   <reg>insegnante</reg>
+                   </choice>
+                   </roleName>, essendo certo che la mano non corre veloce quanto
+                   <lb facs="#riga38_articolo2" />
+                   il pensiero e la parola.
+                   <lb facs="#riga39_articolo2" />
+                   Non voglio negare che per alcune discipline era indispen-<lb break="no"/>
+                   <lb facs="#riga40_articolo2" />
+                   sabile il libro di testo, ma, per non occuparmi che della sto-<lb break="no"/>
+                   <lb facs="#riga41_articolo2" />
+                   ria, di cui posso parlare con alquanta cognizione di causa, 
+                   <lb facs="#riga42_articolo2" />
+                   dico che colla circolare suddetta si ando' incontro a un incon-<lb break="no"/>
+                   <lb facs="#riga43_articolo2" />
+                   veniente, se non peggiore, certo uguale a quello che si vo-<lb break="no"/>
+                   <lb facs="#riga44_articolo2" />
+                   leva evitare. Infatti e' verissimo che meglio si comprende un
+                   <lb facs="#riga45_articolo2" />
+                   discorso collo stare attenti che non col pigliar note. Poiche'
+
+                   <lb facs="#riga46_articolo2" />
+                   <cb n="2"/>
+                   mentre la mente cerca di comprendere l'idea che pare l'abbia
+                   <lb facs="#riga47_articolo2" />
+                   maggiormente colpita, e la mano fissa sulla carta tale idea, ne
+                   <lb facs="#riga48_articolo2" />
+                   sfuggono altre che sono pure importanti. Credo che gli <roleName type="professione">
+                   <choice>
+                   <orig>ste-</orig>
+                   <reg>stenografi</reg>
+                   </choice>
+                   </roleName>
+                   <lb facs="#riga49_articolo2" />
+                   <roleName type="professione">
+                   <choice>
+                   <orig>nografi</orig>
+                   <reg>stenografi</reg>
+                   </choice>
+                   </roleName> della <orgName type="istituzione">Camera dei Deputati</orgName>, quando consegnano i loro
+                   <lb facs="#riga50_articolo2" />
+                   appunti, non sappiano nemmen essi cio' che hanno scritto. Ma,
+                   <lb facs="#riga51_articolo2" />
+                   come ognun vede, per ritenere a mente un discorso logica-<lb break="no"/>
+                   <lb facs="#riga52_articolo2" />
+                   mente fatto, e' necessaria una continua attenzione ed una
+                   <lb facs="#riga53_articolo2" />
+                   percezione viva e pronta; altrimenti le idee sfuggono, la
+                   <lb facs="#riga54_articolo2" />
+                   mente invano cerca di afferrarle e finisce per correre in-<lb break="no"/>
+                   <lb facs="#riga55_articolo2" />
+                   certa, sin che divaga affatto. Cio' succede a uomini dotti;
+                   <lb facs="#riga56_articolo2" />
+                   le distrazioni mentali non sono poi un fenomeno straordina-<lb break="no"/>
+                   <lb facs="#riga57_articolo2" />
+                   rio anche in persone di sommo ingegno e di svegliatissima
+                   <lb facs="#riga58_articolo2" />
+                   intelligenza; talora si risponde a un'interpellanza in modo
+                   <lb facs="#riga59_articolo2" />
+                   che pare non si abbia ben compresa la mente di chi parlava; 
+                   <lb facs="#riga60_articolo2" />
+                   quanti non si addormentano al sentire un discorso accade-<lb break="no"/>
+                   <lb facs="#riga61_articolo2" />
+                   mico! Se cio' accade a persone che hanno coltura, ingegno e
+                   <lb facs="#riga62_articolo2" />
+                   riflessione sviluppata, che non avverra' quando si tratti di
+                   <lb facs="#riga63_articolo2" />
+                   giovani, i quali si trovano in pieno sviluppo fisico, abbon-<lb break="no"/>
+                   <lb facs="#riga64_articolo2" />
+                   dano di fantasia e volentieri si abbandonano alle dolci illu-<lb break="no"/>
+                   <lb facs="#riga65_articolo2" />
+                   sioni del mondo che ai loro occhi si schiude? Chiunque ha
+                   <lb facs="#riga66_articolo2" />
+                   un po' di pratica delle scuole secondarie sapra' benissimo qual
+                   <lb facs="#riga67_articolo2" />
+                   sia l'attenzione prestata dalla maggior parte dei giovani.
+                   <lb facs="#riga68_articolo2" />
+                   Quando si riesca a mantenere una severa disciplina
+                   <lb facs="#riga69_articolo2" />
+                   si avranno gli <roleName>alunni</roleName> tutti immobili; ma esaminando gli
+                   <lb facs="#riga70_articolo2" />
+                   occhi dei vostri <roleName>discepoli</roleName>, voi v'accorgerete facilmente che
+                   <lb facs="#riga71_articolo2" />
+                   i piu' non prestano se non un'attenzione fittizia, o che il
+                   <lb facs="#riga72_articolo2" />
+                   cervello lavora in un ordine d'idee ben lontano da quelle
+                   <lb facs="#riga73_articolo2" />
+                   che state esponendo. Bisogna di quando in quando inter-<lb break="no"/>
+                   <lb facs="#riga74_articolo2" />
+                   rompere la lezione per richiamare l'uditorio a prestarvi
+                   <lb facs="#riga75_articolo2" />
+                   ascolto. Se invece voi obbligate tutti gli <roleName>alunni</roleName> a prendere
+                   <lb facs="#riga76_articolo2" />
+                   appunti, otterrete almeno una cosa, cioe', che non tutte le
+                   <lb facs="#riga77_articolo2" />
+                   vostre parole saran gettate al vento. E il giovane, giunto
+                   <lb facs="#riga78_articolo2" />
+                   a casa, potra' nella sua cameretta, aiutato dalle idee fis-<lb break="no"/>
+                   <lb facs="#riga79_articolo2" />
+                   sate sulla carta, ricostruire tutto il ragionamento che verra'
+                   <lb facs="#riga80_articolo2" />
+                   poi sommariamente rifatto nel primo quarto d'ora della le-<lb break="no"/>
+                   <lb facs="#riga81_articolo2" />
+                   zione susseguente. Io non sostengo che con questo sistema
+                   <lb facs="#riga82_articolo2" />
+                   si evitino tutti gl'inconvenienti: e' cosa impossibile, poi-<lb break="no"/>
+                   <lb facs="#riga83_articolo2" />
+                   che' non tutti i giovani hanno la stessa intelligenza e lo
+                   <lb facs="#riga84_articolo2" />
+                   stesso amore allo studio; affermo soltanto che il resultato
+                   <lb facs="#riga85_articolo2" />
+                   delle lezioni e' migliore. Col libro di testo si favorisce la
+                   <lb facs="#riga86_articolo2" />
+                   poltroneria degli <roleName>alunni</roleName>, e vien diminuito il profitto della
+                   <lb facs="#riga87_articolo2" />
+                   scuola; coll'obbligo del prendere appunti, lo <roleName>scolaro</roleName> studioso
+                   <lb facs="#riga88_articolo2" />
+                   puo' assai piu' facilmente progredire. Parlo per esperienza.
+                   <lb facs="#riga89_articolo2" />
+                   Ubbidii anch'io alla circolare dell'<choice>
+                        <abbr>onor.</abbr>
+                        <expan>onorevole</expan>
+                   </choice>
+                   <persName>Bonghi</persName>, rispettando
+                   <lb facs="#riga90_articolo2" />
+                   in lui e il superiore e il dotto; ma, per parlare libera-<lb break="no"/>
+                   <lb facs="#riga91_articolo2" />
+                   mente, prima, quando non usava il libro di testo, aveva una
+                   <lb facs="#riga92_articolo2" />
+                   scolaresca piu' attenta, piu' diligente, piu' attiva, e mi sentivo
+                   <lb facs="#riga93_articolo2" />
+                   moralmente soddisfatto. Ora invece, se dopo essermi sfiatato
+                   <lb facs="#riga94_articolo2" />
+                   a dimostrare, ad <choice>
+                        <abbr>es.</abbr>
+                        <expan>esempio</expan>
+                   </choice>,
+                   il sorger dei comuni, chiedo spiega-<lb break="no"/>
+                   <lb facs="#riga95_articolo2" />
+                   zioni ai giovani, il piu' delle volte mi sento rispondere: Non
+                   <lb facs="#riga96_articolo2" />
+                   c'e' sul libro di testo! Ma dunque perche' si frequenta la
+                   <lb facs="#riga97_articolo2" />
+                   scuola? Si dara' uno zero, si cerchera' di toccare il cuore, si
+                   <lb facs="#riga98_articolo2" />
+                   parlera' di sentimento del dovere, di vita sociale, di esami,
+                   <lb facs="#riga99_articolo2" />
+                   ma non si fara' che un buco nell'acqua: la negligenza pre-<lb break="no"/>
+                   <lb facs="#riga100_articolo2" />
+                   varra' un'altra volta. Forse il <persName>Bonghi</persName> trovo' che in alcune
+                   <lb facs="#riga101_articolo2" />
+                   scuole non si faceva lezione; si dettava, e tutto il corso si
+                   <lb facs="#riga102_articolo2" />
+                   riduceva a un esercizio di scrittura sotto dettato. Anche a
+                   <lb facs="#riga103_articolo2" />
+                   me tocco' un <roleName type="professione">professore</roleName> di storia che seguiva questo bel si-<lb break="no"/>
+                   <lb facs="#riga104_articolo2" />
+                   stema; ma siffatto sconcio si puo' togliere mediante la vi-<lb break="no"/>
+                   <lb facs="#riga105_articolo2" />
+                   gilanza del <roleName type="professione">preside</roleName>. D'altra parte, col libro di testo si corre
+                   <lb facs="#riga106_articolo2" />
+                   pericolo di fare delle lezioni di storia nei ginnasi e nei li-<lb break="no"/>
+                   <lb facs="#riga107_articolo2" />
+                   cei un esercizio di lettura. Forse in altre scuole ci sara' il
+                   <lb facs="#riga108_articolo2" />
+                   vizio opposto: si faran lezioni di filosofia della storia; ma
+                   <lb facs="#riga109_articolo2" />
+                   col libro di testo si evitera' tale abuso? E poi come si vuole
+                   <lb facs="#riga110_articolo2" />
+                   che sia fatto il libro da darsi agli <roleName>alunni</roleName>?
+                   <lb facs="#riga111_articolo2" />
+                   Dice il <persName>Bonghi</persName>, nella sovraccitata circolare: <quote>« Un libro
+                   <lb facs="#riga112_articolo2" />
+                   che deve servire di testo ai giovani, per ricordo e conferma</quote>
+                   </ab>
+                   </div>
+                  
+                  
+                  <div type="article" n="2" xml:lang="it" xml:id="Articolo2_pt.2">
+                  <ab>
+                  <lb facs="#riga113_articolo2" />
+                  <cb n="1"/>
+                  <pb n="138" facs="#pag138"/>
+                  <quote>delle lezioni che son fatte dal <roleName type="professione">maestro</roleName>, puo' essere compi-<lb break="no"/>
+                  <lb facs="#riga114_articolo2" />
+                  lato in piu' modi. O puo' contenere tutta la dottrina in di-<lb break="no"/>
+                  <lb facs="#riga115_articolo2" />
+                  steso, succintamente esposta; ovvero puo' registrarne solo le
+                  <lb facs="#riga116_articolo2" />
+                  conclusioni, lasciando alla parola del <roleName type="professione">maestro</roleName> il dedurre, e
+                  <lb facs="#riga117_articolo2" />
+                  alla memoria ed ingegno dell'<roleName>alunno</roleName> il rintracciarne le prove:
+                  <lb facs="#riga118_articolo2" />
+                  ovvero, per ultimo, puo' andar disegnando e notando coteste
+                  <lb facs="#riga119_articolo2" />
+                  prove, soprattutto quando consistono in osservazioni spe-<lb break="no"/>
+                  <lb facs="#riga120_articolo2" />
+                  ciali di fatti, o in citazioni di autori, e commettere alla viva
+                  <lb facs="#riga121_articolo2" />
+                  voce del <roleName type="professione">professore</roleName> e alla mente dell'<roleName>alunno</roleName> il ricordare e il
+                  <lb facs="#riga122_articolo2" />
+                  ritrovare le conclusioni. » </quote> Sono tutti metodi eccellenti per
+                  <lb facs="#riga123_articolo2" />
+                  formare un buon libro di testo; ma si scelga l'uno o l'altro
+                  <lb facs="#riga124_articolo2" />
+                  di questi sistemi, occorre sempre la spiegazione, e s'incontra
+                  <lb facs="#riga125_articolo2" />
+                  ognora lo scoglio della disattenzione dei giovani. Il giovane
+                  <lb facs="#riga126_articolo2" />
+                  deve fidarsi troppo della memoria, la quale sovente inganna.
+                  <lb facs="#riga127_articolo2" />
+                  So che a molti <roleName type="professione">insegnanti</roleName> accade, col sistema di non lasciar
+                  <lb facs="#riga128_articolo2" />
+                  prendere appunti, di spiegare ben bene una questione e poi
+                  <lb facs="#riga129_articolo2" />
+                  di sentirsi ripetere cio' che non si e' mai sognato di dire.
+                  <lb facs="#riga130_articolo2" />
+                  Che poi se si permette di lasciar prendere appunti di quanto
+                  <lb facs="#riga131_articolo2" />
+                  si dice, tanto fa levare il libro di testo. E pero' se senza
+                  <lb facs="#riga132_articolo2" />
+                  libro di testo si ha qualche inconveniente, si ottiene per
+                  <lb facs="#riga133_articolo2" />
+                  altro, a mio modo di vedere, maggiore attenzione dalla
+                  <lb facs="#riga134_articolo2" />
+                  quale per l'appunto dipende il profitto della scuola. Pertanto
+                  <lb facs="#riga135_articolo2" />
+                  sarei per l'abolizione del libro di testo, e vorrei che in mano
+                  <lb facs="#riga136_articolo2" />
+                  ai giovani non si desse che una esatta cronologia. Vegga
+                  <lb facs="#riga137_articolo2" />
+                  l'attuale <roleName type="istituzionale">ministro</roleName>, se in quanto si venne fin qui dicendo,
+                  <lb facs="#riga138_articolo2" />
+                  non siavi qualcosa di giusto: veggano gli uomini versati
+                  <lb facs="#riga139_articolo2" />
+                  nell'insegnamento secondario se non convenga trattare que-<lb break="no"/>
+                  <lb facs="#riga140_articolo2" />
+                  sta questione piu' a fondo di quanto io non ho saputo fare.
+                  <lb facs="#riga141_articolo2" />
+                  La discussione non potra' non essere feconda di buoni
+                  <lb facs="#riga142_articolo2" />
+                  risultati e forse si trovera' un rimedio all'apatia che oggidi'
+                  <lb facs="#riga143_articolo2" />
+                  regna in molte delle nostre scuole.
+                  <lb facs="#riga144_articolo2" />
+                  Un altro argomento, degno di essere trattato nelle co-<lb break="no"/>
+                  <lb facs="#riga145_articolo2" />
+                  lonne di questa <title level="j" rend="italic">Rassegna</title>, sarebbe quello delle assenze. Gli
+                  <lb facs="#riga146_articolo2" />
+                  <roleName>alunni</roleName> soventi volte <hi rend="italic">bruciano</hi> le lezioni; i padri son lontani
+                  <lb facs="#riga147_articolo2" />
+                  e nessuno se ne occupa. I <roleName type="professione">presidi</roleName> possono sospendere dalle
+                  <lb facs="#riga148_articolo2" />
+                  lezioni; ma il rimedio non e' peggiore del male? Non sa-<lb break="no"/>
+                  <lb facs="#riga149_articolo2" />
+                  rebbe bene rimettere la cosi' detta carta d'ammissione?
+                  <lb facs="#riga150_articolo2" />
+                  <hi rend="italic">Devot.</hi> 
+                  <persName>
+                         <abbr>C.F.</abbr>
+                        </persName>
+
+
+             </ab>
+             </div>
+
+                  
+                  
+                  
+              <!--Articolo 3-->  
+                 <div type="article" n="3" xml:lang="it" xml:id="Articolo3">
+   <pb n="148" facs="#pag148" />
+   <cb n="1"/>
+   <head rend="uppercase">
+      <lb facs="#titolo1_articolo3"/>
+      LA TUTELA DELLA VITA DEGLI OPERAI.
+      <lb facs="#titolo2_articolo3"/>
+      <hi rend="sub">CORRISPONDENZA DA MILANO.</hi>
+   </head>
+   <ab>
+      <lb facs="#riga1_articolo3"/>
+      <date when="1879-08-28" cert="medium">28 agosto 1879</date>
+      <lb facs="#riga2_articolo3"/>
+      Fino dall'anno <date>1874</date> fu fondata in <placeName>Milano</placeName> una
+      <orgName type="istituzione">
+         <choice>
+         <orig>Asso-</orig>
+         <reg>Associazione</reg>
+         </choice>
+      </orgName>
+      <lb facs="#riga3_articolo3"/>
+      <orgName type="istituzione">
+      <choice>
+       <orig>ciazione</orig>
+        <reg>Associazione</reg>
+        </choice>
+      </orgName> di mutuo soccorso fra gli addetti all'arte edilizia.
+      <lb facs="#riga4_articolo3"/>
+      Dessa in oggi conta circa <num>400</num> <roleName>soci</roleName>, fra cui <roleName type="professione">ingegneri</roleName> e
+      <lb facs="#riga5_articolo3"/>
+      <roleName type="professione">capi-mastri</roleName> quali <roleName>soci</roleName> contribuenti, e <roleName type="professione">mastri-muratori</roleName> e
+      <lb facs="#riga6_articolo3"/>
+      manuali quali <roleName>soci</roleName> effettivi fruenti del mutuo soccorso.
+      <lb facs="#riga7_articolo3"/>
+      L'<orgName type="istituzione">associazione</orgName> sorse per iniziativa d'<roleName type="professione">ingegneri</roleName> e
+      <roleName type="professione">
+         <choice>
+         <orig>capi-ma-</orig>
+         <reg>capi-mastri</reg>
+         </choice>
+         </roleName>
+      <lb facs="#riga8_articolo3"/>
+      <roleName type="professione">
+         <choice>
+       <orig>stri</orig>
+        <reg>capi-mastri</reg>
+        </choice>
+        </roleName> onde venire appunto in aiuto agli <roleName type="professione">operai muratori</roleName>
+      <lb facs="#riga9_articolo3"/>
+      esposti forse piu' che altri a pericoli e disgrazie, e per rial- <lb break="no"/>
+      <lb facs="#riga10_articolo3"/>
+      zare le sorti di un preesistente sodalizio, sorto nel <date>1800</date>
+      <lb facs="#riga11_articolo3"/>
+      sotto il nome di <orgName type="istituzione">Societa'</orgName> di <roleName type="professione">muratori</roleName>. Questo sodalizio con- <lb break="no"/>
+      <lb facs="#riga12_articolo3"/>
+      tava alla sua origine un novecento <roleName>soci</roleName>, e poteva disporre
+      <lb facs="#riga13_articolo3"/>
+      di un capitale di circa <num value="40000">40</num> mila lire; ma, come anche altre
+      <lb facs="#riga14_articolo3"/>
+      simili <orgName type="istituzione">Societa'</orgName>, fra noi ed all'estero, assunse appalti per
+      <lb facs="#riga15_articolo3"/>
+      aumentare il suo peculio, e fu ridotto dopo pochi anni a
+      <lb facs="#riga16_articolo3"/>
+      pochi <roleName>soci</roleName>, ed a poche migliaia di lire non sufficenti a far
+      <lb facs="#riga17_articolo3"/>
+      fronte agli impegni.
+      <lb facs="#riga18_articolo3"/>
+      L'<orgName type="istituzione">associazione</orgName>, invece, che gli subentro' si e' messa per
+      <lb facs="#riga19_articolo3"/>
+      altra via ed al <date>31 dicembre 1878</date> faceva gia' risalire il ca- <lb break="no"/>
+      <lb facs="#riga20_articolo3"/>
+      pitale sociale alla cifra di <num value="22000">22</num> mila lire. Non e' ancora capi- <lb break="no"/>
+      <lb facs="#riga21_articolo3"/>
+      tale vistoso, per cui finora non si e' potuto rispondere,
+      <lb facs="#riga22_articolo3"/>
+      come si desidera, a tutti gli intenti per quali fu creata l'<orgName type="istituzione">
+         <choice>
+         <orig>as-</orig>
+        <reg>Associazione</reg>
+        </choice>
+        </orgName>
+      <lb facs="#riga23_articolo3"/>
+      <orgName type="istituzione">
+         <choice>
+      <orig>sociazione</orig>
+        <reg>Associazione</reg>
+        </choice>
+        </orgName>, ma questi risultati provano la buona direzione
+      <lb facs="#riga24_articolo3"/>  
+      e fanno sperar bene per l'avvenire. Gli scopi sociali sono
+      <lb facs="#riga25_articolo3"/>
+      quattro, per ciascuno dei quali corrisponde un fondo spe- <lb break="no"/>
+      <lb facs="#riga26_articolo3"/>
+      ciale, e cioe': soccorso ai <roleName>soci</roleName> nei casi di malattia; soccorso
+      <lb facs="#riga27_articolo3"/>
+      nei casi di disgrazia, estendibile, date speciali condizioni,
+      <lb facs="#riga28_articolo3"/>
+      anche alle famiglie dei <roleName>soci</roleName>, quando l'operaio soccomba;
+      <lb facs="#riga29_articolo3"/>
+      sussidi di vecchiaia od impotenza di lavoro; sussidi per le
+      <lb facs="#riga30_articolo3"/>
+      spese funebri. Il suo <orgName type="istituzione">Consiglio d'amministrazione</orgName> e' compo- <lb break="no"/>
+      <lb facs="#riga31_articolo3"/>
+      sto d'<roleName type="professione">ingegneri</roleName>, <roleName type="professione">capi-mastri</roleName>, e <roleName type="professione">mastri-muratori</roleName>. Nella classe
+      <lb facs="#riga32_articolo3"/>
+      degli <roleName type="professione">ingegneri</roleName>, dei <roleName type="professione">capi-mastri</roleName>, degli <roleName type="professione">intraprenditori</roleName> cerca
+      <lb facs="#riga33_articolo3"/>
+      e trova i <roleName type="professione">benefattori</roleName> per aumentare il capitale sociale; fra
+      <lb facs="#riga34_articolo3"/>
+      gli <roleName type="professione">operai-muratori</roleName>, i <roleName>soci</roleName>, che mediante la contribuzione
+      <lb facs="#riga35_articolo3"/>
+      di centesimi <num>25</num> la settimana se <roleName type="professione">muratori</roleName>, e di centesimi <num>15</num>
+      <lb facs="#riga36_articolo3"/>
+      se manuali, concorrono a formare il reddito annuo pei sus- <lb break="no"/>
+      <lb facs="#riga37_articolo3"/>
+      sidi. Pero' l'opera sua non vuol essere soltanto di soccorso,
+      <lb facs="#riga38_articolo3"/>
+      ma altresi' in certo qual modo preventiva, e per questa affido'
+      <lb facs="#riga39_articolo3"/>
+      ad una <orgName type="istituzione">Commissione</orgName>, fra gli altri incarichi, quello di stu- <lb break="no"/>
+      <lb facs="#riga40_articolo3"/>
+      diare e di suggerire i modi per prevenire od almeno dimi- <lb break="no"/>
+      <lb facs="#riga41_articolo3"/>
+      nuire le disgrazie.
+      <lb facs="#riga42_articolo3"/>
+      Questa <orgName type="istituzione">Commissione</orgName>, nella quale entrano <roleName type="professione">ingegneri</roleName>,
+      <roleName type="professione">
+         <choice>
+         <orig>capi-</orig>
+        <reg>capi-mastri</reg>
+        </choice>
+        </roleName>
+      <lb facs="#riga43_articolo3"/>
+      <cb n="2"/>
+      <roleName type="professione">
+         <choice>
+         <orig>mastri</orig>
+        <reg>capi-mastri</reg>
+        </choice>
+        </roleName> e <roleName type="professione">mastri-muratori</roleName>, presentava non e' molto una re- <lb break="no"/>
+      <lb facs="#riga44_articolo3"/>  
+      lazione, della quale non mi pare inutile darvi qualche no- <lb break="no"/>
+      <lb facs="#riga45_articolo3"/>
+      tizia, essendosi appunto il vostro periodico gia' occupato della
+      <lb facs="#riga46_articolo3"/>
+      questione.<note>*2</note>
+      <lb facs="#riga47_articolo3"/>
+      La <orgName type="istituzione">Commissione</orgName>, nel desiderio di avere una esatta sta- <lb break="no"/>
+      <lb facs="#riga48_articolo3"/>
+      tistica dei casi di disgrazie, e delle cause che le produ- <lb break="no"/>
+      <lb facs="#riga49_articolo3"/>
+      cono, si diede dapprima alle opportune richerche, ma pur
+      <lb facs="#riga50_articolo3"/>
+      troppo non ha potuto raccogliere tutti gli elementi neces- <lb break="no"/>
+      <lb facs="#riga51_articolo3"/>
+      sari. Ricorse allora alle note del nostro <orgName type="istituzione">Ospedale Maggiore</orgName>
+      <lb facs="#riga52_articolo3"/>
+      e dietro queste giunse a stabilire che nella nostra citta' la
+      <lb facs="#riga53_articolo3"/>
+      media mensile dei feriti o contusi per cadute da ponti, ro- <lb break="no"/>
+      <lb facs="#riga54_articolo3"/>
+      vine di fabbriche etc. e' di <num>7,41</num>.
+      <lb facs="#riga55_articolo3"/>
+      Perche' pero' questa media avesse un valore reale biso- <lb break="no"/>
+      <lb facs="#riga56_articolo3"/>
+      gnerebbe fosse distinta secondo le cause e fosse in relazione
+      <lb facs="#riga57_articolo3"/>
+      col numero delle costruzioni e degli <roleName type="professione">operai</roleName> impiegati, cio'
+      <lb facs="#riga58_articolo3"/>
+      che non si e' potuto ottenere per mancanza di indicazioni.
+      <lb facs="#riga59_articolo3"/>
+      In ogni modo sta il fatto, che le disgrazie avvengono per
+      <lb facs="#riga60_articolo3"/>
+      la massima parte in conseguenza di trascuratezza o di
+      <lb facs="#riga61_articolo3"/>
+      ignoranza dei provvedimenti atti ad evitarle, o per col- <lb break="no"/>
+      <lb facs="#riga62_articolo3"/>
+      pevole avidita' di lucro dei costruttori.
+      <lb facs="#riga63_articolo3"/>
+      La <orgName type="istituzione">Commissione</orgName> pertanto assente con voi nell'opinione,
+      <lb facs="#riga64_articolo3"/>
+      che in <placeName>Italia</placeName> occorre una legge speciale per tutelare la
+      <lb facs="#riga65_articolo3"/>
+      vita degli operai, legge che gia' si trova in altri paesi e tale
+      <lb facs="#riga66_articolo3"/>
+      che sia piu' efficace dell'che sia piu' efficace dell’
+      <choice>
+      <abbr>art.</abbr>
+      <expan>articolo</expan>
+      </choice>
+      <num>1151</num> e seguenti del <title type="legge">codice civile</title>
+      <lb facs="#riga67_articolo3"/>
+      italiano; e che l'azione a favore dei danneggiati sia mossa
+      <lb facs="#riga68_articolo3"/>
+      dalle stesse <roleName type="funzione">autorita' di polizia giudiziaria</roleName>, perche' in ge- <lb break="no"/>
+      <lb facs="#riga69_articolo3"/>
+      nere  questi danneggiati sono poveri <roleName type="professione">operai</roleName> ignari delle
+      <lb facs="#riga70_articolo3"/>
+      formalita' di procedura, o senza mezzi per far valere le
+      <lb facs="#riga71_articolo3"/>
+      loro ragioni davanti ai <orgName type="istituzione">tribunali</orgName>. E cosi' conclude invitando
+      <lb facs="#riga72_articolo3"/>
+      la presidenza dell'<orgName type="istituzione">Associazione</orgName> a farsi iniziatrice di una
+      <lb facs="#riga73_articolo3"/>
+      petizione in questo senso al <orgName type="politica">Parlamento</orgName>. E onde la sua
+      <lb facs="#riga74_articolo3"/>
+      domanda riesca piu' autorevole, la vorrebbe appoggiata dal
+      <lb facs="#riga75_articolo3"/>
+      voto anche del nostro
+      <orgName type="istituzione">Collegio degli Ingegneri ed</orgName>
+      <orgName type="istituzione">
+      <choice>
+      <orig>Archi-</orig>
+      <reg>Architetti</reg>
+      </choice>
+      </orgName>
+      <lb facs="#riga76_articolo3"/>
+      <orgName type="istituzione">
+      <choice>
+      <orig>tet­ti</orig>
+      <reg>Architetti</reg>
+      </choice>
+      </orgName>. Il <orgName type="istituzione">municipio</orgName> di <placeName>Milano</placeName>, che fino dal principio del secolo
+      <lb facs="#riga77_articolo3"/>
+      usa rilasciare patenti per l'esercizio dell'arte del
+      <roleName type="professione">
+      <choice>
+      <orig>capo-</orig>
+      <reg>capo-mastro</reg>
+      </choice>
+      </roleName>
+      <lb facs="riga78_articolo3"/>
+      <roleName type="professione">
+      <choice>
+      <orig>mastro</orig>
+      <reg>capo-mastro</reg>
+      </choice>
+      </roleName> dietro regolari esami di idoneita', aveva nelle sue
+      <lb facs="#riga79_articolo3"/>
+      antiche licenze per fabbriche, particolareggiate e severe pre- <lb break="no"/>
+      <lb facs="#riga80_articolo3"/>
+      scrizioni per la costruzione dei ponti, per le grossezze e
+      <lb facs="#riga81_articolo3"/>
+      qualita' dei muri etc., ed anche in un nuovo regolamento
+      <lb facs="#riga82_articolo3"/>
+      edilizio proposto all'approvazione del <orgName type="istituzione">governo</orgName>, aveva intro- <lb break="no"/>
+      <lb facs="#riga83_articolo3"/>
+      dotto parte di queste prescrizioni, ma il <orgName type="istituzione">ministero</orgName> le tolse
+      <lb facs="#riga84_articolo3"/>
+      quasi tutte, cosi' ora bazza a chi tocca. Una legge dunque e'
+      <lb facs="#riga85_articolo3"/>
+      necessaria, e tale che non sia lettera morta come molte altre.
+      <lb facs="#nota86_articolo3"/>
+      <note>*2
+      <bibl>
+         <author><persName cert="low">
+         <forename><abbr type="initial">V.</abbr></forename>
+         <surname><unclear reason="illegible"/></surname>
+         </persName></author>,
+         <biblScope unit="volume" n="II">vol. II</biblScope>,
+         <choice>
+         <abbr>n.</abbr>
+         <expan>numero</expan>
+         </choice>
+         <biblScope unit="item">
+            <unclear>32</unclear>
+         </biblScope>,
+         <choice>
+         <abbr>p.</abbr>
+         <expan>pagina</expan>
+         </choice>
+         <biblScope unit="page">  
+            <unclear>427</unclear>
+         </biblScope>;
+         e
+         <biblScope unit="volume" n="III">vol. III</biblScope>,
+         <biblScope unit="item">66</biblScope>,
+         <biblScope unit="page" n="256">256</biblScope>.
+      </bibl>
+      </note>
+   </ab>
+   </div>
+
+                   <!--Bibliografia 1-->
+                  <div type="bibliography" n="1" xml:lang="it" xml:id="Bibliografia1_pt.1">
+   <pb n="156" facs="#pag156" />
+   <cb n="2"/>
+   <head rend="uppercase">
+      <lb facs="#titolo1_bibliografia1"/>
+      BIBLIOGRAFIA.
+      <lb facs="#titolo2_bibliografia1"/>
+      <hi rend="sub">LETTERATURA.</hi>
+   </head>
+   <ab>
+     <bibl>
+     <lb facs="#riga1_bibliografia1"/>
+       <author><persName rend="uppercase">P. G. MOLMENTI</persName></author>,
+       <title level="m" rend="italic">Nuove impressioni Letterarie</title>.
+       — <placeName>Torino</placeName>,
+     <lb facs="#riga2_bibliografia1"/>
+       <publisher>Camilla e Bertolero</publisher>,
+       <date>1878</date>.
+     </bibl>
+     <lb facs="#riga3_bibliografia1"/>
+     Se la <title level="j" rend="italic">Rassegna</title> fosse capace di rimorsi, questo libro,
+     <lb facs="#riga4_bibliografia1"/>
+     che distilla tante fragranti essenze di lodi e ne cosparge
+     <lb facs="#riga5_bibliografia1"/>
+     tanti fortunati <roleName type="professione">scrittori</roleName>, dovrebbe farlene provare parecchi.
+     <lb facs="#riga6_bibliografia1"/>
+     Non vogliamo con questo fare un rimprovero al signor
+     <persName>
+      <choice>
+      <orig>Mol-</orig>
+      <reg>Molmenti</reg>
+      </choice>
+      </persName>
+      </ab>
+      </div>
+     
+     <div type="bibliography" n="1" xml:lang="it" xml:id="Bibliografia1_pt.2">
+     <ab>
+     <lb facs="#riga7_bibliografia1"/>
+      <cb n="1"/>
+      <pb n="157" facs="#pag157"/>
+      <persName>
+      <choice>
+      <orig>menti</orig>
+      <reg>Molmenti</reg>
+      </choice>
+     </persName>, perche' anzi crediamo che in una critica
+     d'<hi rend="italic">
+      <choice>
+        <orig>impres-</orig>
+        <reg>impressioni</reg>
+      </choice>
+     </hi>
+     <lb facs="#riga8_bibliografia1"/>
+         <hi rend="italic">
+      <choice>
+        <orig>sioni</orig>
+        <reg>impressioni</reg>
+      </choice>
+     </hi> e che riguarda quasi piu' l'uomo che l'opera sua, uno
+     <lb facs="#riga9_bibliografia1"/>
+     <roleName type="professione">scrittore</roleName> onesto e gentile, come il <persName>Molmenti</persName>, non volendo
+     <lb facs="#riga10_bibliografia1"/>
+     imitare certe brutte licenze di certa <hi rend="italic">libera stampa</hi>, non ha
+     <lb facs="#riga11_bibliografia1"/>
+     nulla di meglio da fare che spigolare il meno male anche
+     <lb facs="#riga12_bibliografia1"/>
+     d'un lavoro cattivo e lodar tutti colla carita' indulgente e
+     <lb facs="#riga13_bibliografia1"/>
+     amorevole dell'amicizia. Non possiamo a meno pero' di pen- <lb break="no"/>
+     <lb facs="#riga14_bibliografia1"/>
+     sare all'<hi rend="italic">impressione</hi> di coloro, che <quote rend="italic">questo tempo chiameranno
+     <lb facs="#riga15_bibliografia1"/>
+      antico</quote> e vorranno per caso studiare la nostra storia lette- <lb break="no"/>
+     <lb facs="#riga16_bibliografia1"/>
+     raria sui libri del signor <persName>Molmenti</persName>. Altro che secoli di
+     <persName type="historical">
+      <choice>
+      <orig>Pe-</orig>
+      <reg>Pericle</reg>
+      </choice>
+      </persName>
+     <lb facs="#riga17_bibliografia1"/>
+      <persName type="historical">
+      <choice>
+      <orig>ricle</orig>
+      <reg>Pericle</reg>
+      </choice>
+      </persName> e di <persName type="historical">Leon X</persName>! Crederanno di trovarsi addirittura nei
+     <lb facs="#riga18_bibliografia1"/>
+     <foreign rend="italic" xml:lang="la">Saturnia regna</foreign> delle belle lettere! In conclusione se il
+     <persName>
+      <choice>
+      <orig>Mol-</orig>
+      <reg>Molmenti</reg>
+      </choice>
+     </persName>
+     <lb facs="#riga19_bibliografia1"/>
+      <persName>
+      <choice>
+      <orig>menti</orig>
+      <reg>Molmenti</reg>
+      </choice>
+     </persName>, cosi' colto e vivace <roleName type="professione">scrittore</roleName>, vorra' moderare al- <lb break="no"/>
+     <lb facs="#riga20_bibliografia1"/>
+     quanto il suo ottimismo, gli autori contemporanei ci rimet- <lb break="no"/>
+     <lb facs="#riga21_bibliografia1"/>
+     teranno il grato solletico di qualche lode, ma le lettere
+     <lb facs="#riga22_bibliografia1"/>
+     italiane avranno maggior ragione d'essergli grate.
+   </ab>
+   </div>
+ 
+ 
+             <!--Bibliografia 2-->
+                  <div type="bibliography" n="2" xml:lang="it" xml:id="Bibliografia2">
+                      <pb n="190" facs="#pag190" />
+                      <cb n="1" />
+                      <head rend="uppercase">
+                         <lb facs="#titolo_bibliografia2" />
+                         BIBLIOGRAFIA.
+                      </head>
+                      <ab>
+                       <bibl>
+                         <lb facs="#riga1_bibliografia2" />
+                         <author><persName rend="uppercase">LUIGI CAPUANA</persName></author>, <title level="m" rend="italic">Un bacio</title>. - <placeName>Milano</placeName>, <publisher><persName>Giuseppe Ottino</persName></publisher>
+                         <publisher>
+                         <choice>
+                         <orig>edi-</orig>
+                         <reg>editore</reg>
+                         </choice>
+                         </publisher>
+                         <lb facs="#riga2_bibliografia2" />
+                         <publisher>
+                         <choice>
+                         <orig>tore</orig>
+                         <reg>editore</reg>
+                         </choice>
+                         </publisher>, <date>1881</date>.
+                         </bibl>
+                         <lb facs="#riga3_bibliografia2" />
+                         Sono sei novelle, raccolte sotto il titolo della prima, all'uso
+                         <lb facs="#riga4_bibliografia2" />
+                         francese; e piu' una dedica a <title rend="italic">Fasma</title> che non e' lo scritto meno
+                         <lb facs="#riga5_bibliografia2" />
+                         brioso e piacevole del volumetto. Un <title rend="italic">Bacio</title>, non ostante la
+                         <lb facs="#riga6_bibliografia2" />
+                         notata prerogativa, non e' cosa d'importanza; una signora
+                         <lb facs="#riga7_bibliografia2" />
+                         lungamente corteggiata da un gentiluomo ha promesso di
+                         <lb facs="#riga8_bibliografia2" />
+                         dargli mano di sposa, quando egli le carpisca un bacio; e que-<lb break="no"/>
+                         <lb facs="#riga9_bibliografia2" />
+                         sti riesce all'impresa, mentre la bella donna dorme... o piut-<lb break="no"/>
+                         <lb facs="#riga10_bibliografia2" />
+                         tosto mentre finge di dormire. <quote rend="italic">Ti volevo bene... e avevo capito!</quote>
+                         <lb facs="#riga11_bibliografia2" />
+                         Cosi' spiega poi il caso ella stessa all'amante divenuto marito.
+                         <lb facs="#riga12_bibliografia2" />
+                         <quote rend="italic">Stranezza del cuore umano!</quote> Aggiunge l'<choice>
+                              <abbr>A.</abbr>
+                              <expan>Autore</expan>
+                         </choice> - Ma tocca al let-<lb break="no"/>
+                         <lb facs="#riga13_bibliografia2" />
+                         tore l'indovinare le ragioni del fenomeno psicologico: e' un
+                         <lb facs="#riga14_bibliografia2" />
+                         grazioso fatterello e non piu'. - <title rend="italic">Contrasto</title> merita maggior-<lb break="no"/>
+                         <lb facs="#riga15_bibliografia2" />
+                         mente il titolo di novella: e' l'antitesi fra l'amor vero e l'amor
+                         <lb facs="#riga16_bibliografia2" />
+                         sensuale, dipinta non senza originalita'. - <title rend="italic">L'idea di Piula</title> e'
+                         <lb facs="#riga17_bibliografia2" />
+                         il ritratto satirico d'un uomo che fingendosi <roleName>poeta</roleName> di sensi
+                         <lb facs="#riga18_bibliografia2" />
+                         squisiti non mira se non alla prosa del denaro. - <title rend="italic">Storia
+                         <lb facs="#riga19_bibliografia2" />
+                         fosca</title> e' la storia d'una seduzione, al modo di <persName type="myth">Fedra</persName>, con un
+                         <lb facs="#riga20_bibliografia2" />
+                         <persName type="myth">Ippolito</persName> siciliano, meno rigido e piu' carnale dell'antico; co-<lb break="no"/>
+                         <lb facs="#riga21_bibliografia2" />
+                         lorita cosi', a rapidi tocchi e con immagini di studiato na-<lb break="no"/>
+                         <lb facs="#riga22_bibliografia2" />
+                         turalismo, fa venire la pelle d'oca. I due ultimi racconti appar-<lb break="no"/>
+                         <lb facs="#riga23_bibliografia2" />
+                         tengono alla maniera fantastica messa in voga dal <persName>Poe</persName>; ma
+
+                         <lb facs="#riga24_bibliografia2" />
+                         <cb n="2"/>
+                         l'una (<title rend="italic">Un caso di sonnambulismo</title>) ha poca originalita', e per
+                         <lb facs="#riga25_bibliografia2" />
+                         quanta arte v'abbia l'<choice>
+                              <abbr>A.</abbr>
+                              <expan>Autore</expan>
+                          </choice>, non giunge a produrre intie-<lb break="no"/>
+                         <lb facs="#riga26_bibliografia2" />
+                         ramente quella intensita' d'impressione che conquide l'animo e
+                         <lb facs="#riga27_bibliografia2" />
+                         tien luogo di credibilita'. L'altra (<title rend="italic">Il dottor Cymbalus</title>) racchiude
+                         <lb facs="#riga28_bibliografia2" />
+                         in germe un'idea ingegnosa e peregrina. Trattasi d'un gio-<lb break="no"/>
+                         <lb facs="#riga29_bibliografia2" />
+                         vane che, tormentato da passione, sta per uccidersi; un
+                         <lb facs="#riga30_bibliografia2" />
+                         amico lo conduce da un dotto <roleName>fisiologo</roleName> il quale ha scoperto il
+                         <lb facs="#riga31_bibliografia2" />
+                         segreto di render l'uomo insensibile mediante una semplice
+                         <lb facs="#riga32_bibliografia2" />
+                         e sicura operazione. Pregato e ripregato questi consente, an-<lb break="no"/>
+                         <lb facs="#riga33_bibliografia2" />
+                         corche' a malincuore, a fare l'esperimento della sua scienza,
+                         <lb facs="#riga34_bibliografia2" />
+                         per salvare almeno la vita al giovane infelice. Il quale peraltro
+                         <lb facs="#riga35_bibliografia2" />
+                         ormai privo della facolta' di amare, dopo un breve periodo di
+                         <lb facs="#riga36_bibliografia2" />
+                         benessere, si trova piu' infelice di prima per quel vuoto che
+                         <lb facs="#riga37_bibliografia2" />
+                         sente in se' e che nulla puo' colmare: sicche', finisce col sui-<lb break="no"/>
+                         <lb facs="#riga38_bibliografia2" />
+                         cidarsi, legando il suo patrimonio all'amico e al <persName>
+                          <roleName>dottor</roleName>
+                          <surname>
+                          <choice>
+                          <orig>Cym-</orig>
+                          <reg>Cymbalus</reg>
+                           </choice>
+                            </surname>
+                             </persName>
+                         <lb facs="#riga39_bibliografia2" />
+                         <persName>
+                          <surname>
+                          <choice>
+                          <orig>balus</orig>
+                          <reg>Cymbalus</reg>
+                           </choice>
+                            </surname>
+                             </persName> perche' costituiscano una scuola gratuita ove s'insegni
+                         <lb facs="#riga40_bibliografia2" />
+                         ad amare. Si potrebbe chiedere come mai divenuto insensi-<lb break="no"/>
+                         <lb facs="#riga41_bibliografia2" />
+                         bile, il protagonista <hi rend="italic">senta</hi> tuttavia la mancanza della facolta'
+                         <lb facs="#riga42_bibliografia2" />
+                         d'amare. Ma obiezioni di tal genere si troverebbero da fare
+                         <lb facs="#riga43_bibliografia2" />
+                         in molte storie fantastiche: piuttosto avremmo voluto che
+                         <lb facs="#riga44_bibliografia2" />
+                         l'<choice>
+                              <abbr>A.</abbr>
+                              <expan>Autore</expan>
+                          </choice> svolgesse piu' largamente e piu' profondamente il proprio
+                         <lb facs="#riga45_bibliografia2" />
+                         tema, mentre si trattiene piu' sugli accessorii che sulla parte
+                         <lb facs="#riga46_bibliografia2" />
+                         sostanziale. Ad ogni modo questa, al pari delle altre novelle,
+                         <lb facs="#riga47_bibliografia2" />
+                         e' narrata con garbata disinvoltura e si legge con diletto.
+
+                        </ab>
+                  </div>
+
+
+
+                  <!--Notizie-->
+                  <div type="notice" n="1" xml:lang="it" xml:id="Notizie">
+   <pb n="160" facs="#pag160" />
+   <cb n="2"/>
+   <head rend="uppercase">
+      <lb facs="#titolo1_notizie"/>
+      NOTIZIE.
+   </head>
+   <list>
+     <item n="1"><!--per sostituire il trattino-->
+      <p>
+      <lb facs="riga1_notizia1"/>
+      La fonderia di <placeName>Monaco</placeName> e' stata incaricata di fondere il
+      <name type="monument">
+      <choice>
+      <orig>Monu-</orig>
+      <reg>Monumento nazionale tedesco</reg>
+      </choice>
+      </name>
+      <lb facs="riga2_notizia1"/>
+      <name type="monument">
+      <choice>
+      <orig>mento nazionale tedesco</orig>
+      <reg>Monumento nazionale tedesco</reg>
+      </choice>
+      </name> che si ha in animo di erigere nel <placeName xml:lang="de">Niederwald</placeName>,
+      <lb facs="riga3_notizia1"/>
+      presso <placeName>Bingen sul Reno</placeName>. Il lavoro e' disegnato dal
+      <choice>
+      <abbr>prof.</abbr>
+      <expan>professore</expan>
+      </choice>
+      <persName>Schilling</persName> di
+      <lb facs="riga4_notizia1"/>
+      <placeName>Dresda</placeName>. Sopra un piedistallo alto ventiquattro metri sta una figura in
+      <lb facs="riga5_notizia1"/>
+      piedi della <placeName>Germania</placeName> che addita colla mano alzata il simbolo dell'unita'
+      <lb facs="riga6_notizia1"/>
+      germanica, la corona imperiale. La figura, alta dieci metri, e' conside- <lb break="no"/>
+      <lb facs="riga7_notizia1"/>
+      rata, da persone competenti, un tionfo dell'arte plastica tedesca. Il
+      <lb facs="riga8_notizia1"/>
+      modello deve essere trasportato in breve a <placeName>Monaco</placeName> con un treno spe- <lb break="no"/>
+      <lb facs="riga9_notizia1"/>
+      ciale, e sara' messo insieme avanti il getto. Il costo del <name type="monument">Monumento</name> e'
+      <lb facs="riga10_notizia1"/>
+      finora di <num>1,100,000</num> marchi, ma ne occorrono altri <num>350,000</num>.<note type="fonte">(Academy)</note>
+      </p>
+      </item>
+ 
+      <item n="2">
+      <p>
+      <lb facs="riga11_notizia2"/>
+      La Mostra antropologica che si terra' a <placeName>Mosca</placeName> nell'estate pros- <lb break="no"/>
+      <lb facs="riga12_notizia2"/>
+      sima avra' molta importanza. Oltre una serie di illustrazioni grafiche
+      <lb facs="riga13_notizia2"/>
+      della vita dell'uomo preistorico, vi saranno esposti molti modelli di
+      <lb facs="riga14_notizia2"/>
+      caverne, scheletri, e molti altri oggetti preistorici. Le cosi' dette
+      <unclear reason="illegible">
+      <gap reason="illegible" extent="unknown"/>
+      <lb facs="riga15_notizia2"/>
+      <gap reason="illegible" extent="unknown"/></unclear> o tombe preistoriche vi saranno rappresentate, coi modelli degli
+      <lb facs="riga16_notizia2"/>
+      scheletri nelle loro varie posizioni esattamente riprodotte, ed altri og- <lb break="no"/>
+      <lb facs="riga17_notizia2"/>
+      getti in quelle tombe trovati. I crani preistorici formeranno una sezione
+      <lb facs="riga18_notizia2"/>
+      separata.
+      </p>
+      </item>
+   </list>
+   </div>
+            </body>
+
+            <back>
+            <listPerson>
+            <person>
+            <persName>P.G. Molmenti</persName>
+            </person>
+            <person>
+            <persName>Bonghi</persName>
+            </person>
+            <person>
+            <persName>C.F.</persName>
+            </person>
+            <person>
+            <persName>Luigi Capuana</persName>
+            </person>
+            <person>
+            <persName>Giuseppe Ottino</persName>
+            </person>
+            <person>
+            <persName>Fedra</persName>
+            </person>
+            <person>
+            <persName>Ippolito</persName>
+            </person>
+            <person>
+            <persName>Poe</persName>
+            </person>
+            <person>
+            <persName>dottor Cymbalus</persName>
+            </person>
+      <person>
+      <persName>Maria Repetti</persName>
+      </person>
+      <person>
+      <persName>Ilda</persName>
+      </person>
+      <person>
+      <persName>Guido Guidi</persName>
+      </person>
+      <person>
+      <persName>Lord Byron</persName>
+      </person>
+      <person>
+      <persName>Eloisa</persName>
+      </person>
+      <person>
+      <persName>Pietro Agnelli</persName>
+      </person>
+      <person>
+      <persName>V.</persName>
+      </person>
+      <person>
+      <persName>Pericle</persName>
+      </person>
+      <person>
+      <persName>Leon X</persName>
+      </person>
+      <person>
+      <persName>Schilling</persName>
+      </person>
+      </listPerson>
+ 
+
+
+            <listPlace>
+            <place>
+            <placeName>Milano</placeName>
+            </place>
+      <place>
+      <placeName>Italia</placeName>
+      </place>
+      <place>
+      <placeName>Torino</placeName>
+      </place>
+      <place>
+      <placeName>Monaco</placeName>
+      </place>
+      <place>
+      <placeName>Niederwald</placeName>
+      </place>
+      <place>
+      <placeName>Bingen sul Reno</placeName>
+      </place>
+      <place>
+      <placeName>Dresda</placeName>
+      </place>
+      <place>
+      <placeName>Germania</placeName>
+      </place>
+      <place>
+      <placeName>Mosca</placeName>
+      </place>
+      </listPlace>
+ 
+            
+
+            <listOrg>
+            <org>
+            <orgName>Universita' di Pisa</orgName>
+            </org>
+            <org>
+            <orgName>Pubblica Istruzione</orgName>
+            </org>
+            <org>
+            <orgName>Camera dei Deputati</orgName>
+            </org>
+            <org>
+            <orgName>Universita'</orgName>
+            </org>
+<org>
+<orgName>Associazione</orgName>
+</org>
+<org>
+<orgName>Societa'</orgName>
+</org>
+<org>
+<orgName>Consiglio d'amministrazione</orgName>
+</org>
+<org>
+<orgName>Commissione</orgName>
+</org>
+<org>
+<orgName>Ospedale Maggiore</orgName>
+</org>
+<org>
+<orgName>tribunali</orgName>
+</org>
+<org>
+<orgName>Parlamento</orgName>
+</org>
+<org>
+<orgName>Collegio degli Ingegneri e degli Architetti</orgName>
+</org>
+<org>
+<orgName>municipio</orgName>
+</org>
+<org>
+<orgName>governo</orgName>
+</org>
+<org>
+<orgName>ministero</orgName>
+</org>
+</listOrg>
+
+         </back>
+      
+      </text>         
+</TEI>      

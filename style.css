@@ -1,0 +1,409 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  scroll-behavior: smooth;
+  background: #f0f0f0;
+}
+ 
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #6c0817;
+  color: white;
+  z-index: 1000;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+}
+ 
+#menutendina {
+  cursor: pointer;
+  margin-right: 20px;
+  display: none;
+}
+ 
+/* NAVBAR */
+#navbar {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+  background-color: #6c0817;
+}
+ 
+#navbar li {
+  position: relative;
+}
+ 
+#navbar a {
+  text-decoration: none;
+  color: white;
+  padding: 8px 12px;
+  display: block;
+}
+ 
+/* Dropdown */
+#navbar li.dropdown div {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #6c0817;
+  min-width: 160px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+ 
+#navbar li.dropdown div a {
+  color: white;
+  padding: 10px 12px;
+}
+ 
+#navbar li.dropdown div a:hover {
+  background-color: #621722;
+}
+ 
+#navbar li.dropdown:hover div {
+  display: block;
+}
+ 
+#navbar a:hover {
+  background-color: #621722;
+  border-radius: 4px;
+}
+ 
+ 
+.scorrimento {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+ 
+.scorrimento img {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+ 
+.scorrimento .titolo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: rgb(189, 136, 90);
+  text-shadow:
+    3px 3px 6px rgba(0, 0, 0, 0.7),
+    1px 1px 1px rgba(0, 0, 0, 0.9);
+  animation: movimentoTitolo 6s infinite ease-in-out;
+}
+ 
+.scorrimento .titolo h1 {
+  font-size: 4rem;
+  margin: 0;
+}
+ 
+@keyframes movimentoTitolo {
+  0% { transform: translate(-50%, -50%) translateY(0); }
+  50% { transform: translate(-50%, -50%) translateY(-15px); }
+  100% { transform: translate(-50%, -50%) translateY(0); }
+}
+ 
+/* SEZIONE ARTICOLI */
+.Articoli {
+    padding: 0 0 50px 0;
+}
+ 
+.contenitore {
+    display: flex;
+    gap: 20px;
+    position: relative;
+    margin-top: 20px;
+}
+ 
+ 
+.colonna-sinistra button {
+  padding: 10px;
+  cursor: pointer;
+}
+ 
+.colonna-centro {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+ 
+.colonna-centro img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+ 
+.blocco-destra {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+ 
+.blocco-destra h3 {
+  margin: 0;
+  padding: 10px 15px;
+  background-color: #6c0817;
+  color: white;
+  border-radius: 5px 5px 0 0;
+  text-align: center;
+  font-size: 1.2rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+ 
+ 
+.colonna-destra-contenuto {
+ width: auto;
+overflow-y: auto;
+ overflow-x: hidden;
+white-space: normal;
+ word-wrap: break-word;
+  background-color: rgba(255,255,255,0.9);
+  padding: 15px;
+  border-radius: 0 0 5px 5px;
+  max-height: 80vh;
+}
+ 
+.Articoli-Contenitore {
+    display: flex;
+    padding: 100px 20px 50px 20px;
+    gap: 20px;
+    position: relative;
+    background-color: transparent;
+    min-height: 100vh;
+}
+ 
+.Articoli::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('immagine_sfondo.jpg') no-repeat center center fixed;
+  background-size: cover;
+  z-index: -2;
+  opacity: 0.3;
+}
+ 
+.Articoli h2  {
+  position: static;            
+  display: block;
+  background-color:#6c0817;
+  color: white;              
+  padding: 10px 20px;        
+  border-radius: 12px;      
+  font-size: 2.2rem;        
+  text-align: center;
+  margin: 0 auto 20px auto;  
+  max-width: 400px;            
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+ 
+/* Contenitore delle sezioni degli articoli (scorre accanto ai bottoni) */
+#contenitore-sezioni-articoli {
+  flex: 1;
+}
+ 
+.colonna-sinistra {
+    flex: 0 0 150px;
+    position: sticky;
+    top: 90px;
+    max-height: calc(100vh - 110px);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow-y: auto;
+    height: fit-content;
+    padding: 10px;
+    border-radius: 5px;
+}
+ 
+ 
+.bottone-categoria {
+  padding: 10px 16px;
+  border-radius: 18px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0;
+    width: 100%;
+}
+ 
+ 
+.bottone-categoria.colore1  { background-color: #ffadad; }
+.bottone-categoria.colore2  { background-color: #c35858; }
+.bottone-categoria.colore3  { background-color: #d87e57; }
+.bottone-categoria.colore4  { background-color: #e1cd5b; }
+.bottone-categoria.colore5  { background-color: #5aa04d; }
+.bottone-categoria.colore6  { background-color: #7aebe0; }
+.bottone-categoria.colore7  { background-color: #696dde; }
+.bottone-categoria.colore8  { background-color: #c5a1f5; }
+.bottone-categoria.colore9  { background-color: #cb6fc7; }
+.bottone-categoria.colore10 { background-color: #dd383d; }
+ 
+.highlight1  { background-color: #ffadad; padding: 2px 4px; border-radius: 6px; }
+.highlight2  { background-color: #c35858; padding: 2px 4px; border-radius: 6px; }
+.highlight3  { background-color: #d87e57; padding: 2px 4px; border-radius: 6px; }
+.highlight4  { background-color: #e1cd5b; padding: 2px 4px; border-radius: 6px; }
+.highlight5  { background-color: #5aa04d; padding: 2px 4px; border-radius: 6px; }
+.highlight6  { background-color: #7aebe0; padding: 2px 4px; border-radius: 6px; }
+.highlight7  { background-color: #696dde; padding: 2px 4px; border-radius: 6px; }
+.highlight8  { background-color: #c5a1f5; padding: 2px 4px; border-radius: 6px; }
+.highlight9  { background-color: #cb6fc7; padding: 2px 4px; border-radius: 6px; }
+.highlight10 { background-color: #dd383d; padding: 2px 4px; border-radius: 6px; }
+ 
+ /*SEZIONE FUNZIONI REGOLARIZZAZIONE E ESPANSIONE*/
+.replaced {
+    font-weight: bold;
+    color:#e1cd5b;
+    border-bottom: 1px dashed #e1cd5b;
+}
+ 
+.regular{
+   font-weight: bold;
+    color:#5aa04d;
+    border-bottom: 1px dashed #5aa04d;
+ 
+}
+/* Nasconde eventuali residui di testo regolarizzato che potrebbero scappare */
+tei-reg, .reg-text {
+    display: none;
+}
+ 
+/* Se il testo è vuoto dopo la regolarizzazione, nascondilo del tutto */
+.replaced:empty {
+    display: none;
+}
+ 
+/* --- SEZIONE GLOSSARIO --- */
+#glossario-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 120px 20px 50px 20px;
+    justify-content: center;
+    background-color: transparent;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+ 
+#glossario-container h1 {
+    flex-basis: 100%;
+    text-align: center;
+    color: white;              
+    background-color: #6c0817;  
+    border: 2px solid #6c0817;
+   
+    padding: 15px 40px;
+    width: fit-content;
+    margin: 0 auto 40px auto;
+    border-radius: 12px;
+    font-size: 2.2rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    text-transform: uppercase;
+}
+ 
+.glossario-sezione {
+    flex: 1;
+    min-width: 250px;
+    max-width: 300px;
+    background: rgba(255, 255, 255, 0.95);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    height: fit-content;
+}
+ 
+/* Titoli delle sezioni */
+.glossario-sezione h2 {
+    color: #6c0817;
+    border-bottom: 2px solid #6c0817;
+    padding-bottom: 8px;
+    margin-top: 0;
+    text-align: center;
+    font-size: 1.4rem;
+}
+ 
+/* Lista termini */
+.glossario-sezione li {
+    padding: 6px 0;
+    border-bottom: 1px solid #eee;
+    color: #333;
+    list-style: none;
+    cursor: default;
+}
+ 
+ 
+/* --- SEZIONE ABOUT --- */
+.about-section {
+    background-color: #6c0817;
+    color: white;              
+    padding: 60px 20px;
+    text-align: center;
+    border-top: 5px solid #621722;
+}
+ 
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+ 
+.about-content h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+ 
+.about-content p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin: 10px 0;
+    opacity: 0.9;
+}
+ 
+.about-content strong {
+    font-weight: bold;
+    color: #e1cd5b;
+}
+ 
+.about-icons {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size: 2rem;
+    opacity: 0.7;
+}
+ 
+#about {
+    scroll-margin-top: 60px;
+}
+ 
+.link, .link:visited {
+    color: white !important;
+    text-decoration: underline;
+    font-weight: bold;
+}
+ 
+.link:hover {
+    color: #cccccc !important;
+}

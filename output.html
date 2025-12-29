@@ -1,0 +1,1148 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:tei="http://www.tei-c.org/ns/1.0" lang="it">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>Progetto Codifica di Testi</title><script src="https://code.jquery.com/jquery-3.7.1.js"></script><script src="codice_js.js"></script><link href="style.css" rel="stylesheet" type="text/css">
+      <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/6957/6957020.png">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.5.1/css/all.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+   <body>
+      <header><i class="fa-solid fa-bars fa-2x" id="menutendina"> MENU</i><ul id="navbar">
+            <li><a href="#home"><i class="fa-solid fa-home"></i></a></li>
+            <li class="dropdown"><a href="#articoli">Articoli <i class="fa-solid fa-angle-down"></i></a><div><a href="#art1">Articolo 1</a><a href="#art2">Articolo 2</a><a href="#art3">Articolo 3</a></div>
+            </li>
+            <li class="dropdown"><a href="#bibliografie">Bibliografie <i class="fa-solid fa-angle-down"></i></a><div><a href="#bibl1">Bibliografia 1</a><a href="#bibl2">Bibliografia 2</a></div>
+            </li>
+            <li class="dropdown"><a href="#notizie">Notizie</a></li>
+            <li><a href="#glossario">Glossario</a></li>
+            <li><a href="#about">About</a></li>
+         </ul>
+      </header>
+      <section id="home" class="scorrimento"><img src="img_home.jpg" alt="Immagine di giornali"><div class="titolo">
+            <h1>Raccolta di articoli della Rassegna Settimanale</h1>
+         </div>
+      </section>
+      <div id="contenitore-generale-articoli" class="Articoli-Contenitore">
+         <div class="colonna-sinistra"><button class="bottone-categoria colore1" onclick="evidenzia(this, 'persName', 1)">persone</button><button class="bottone-categoria colore2" onclick="evidenzia(this, 'placeName', 2)">luoghi</button><button class="bottone-categoria colore3" onclick="evidenzia(this, 'orgName', 3)">organizzazioni</button><button class="bottone-categoria colore4" onclick="toggleFunzione(this, 'mostraEspansioni', 'nascondiEspansioni')">espansioni</button><button class="bottone-categoria colore5" onclick="toggleFunzione(this, 'mostraReg', 'nascondiReg')">regolarizzazioni</button><button class="bottone-categoria colore6" onclick="evidenzia(this, 'roleName', 6)">ruoli</button><button class="bottone-categoria colore7" onclick="evidenzia(this, 'dateName', 7)">date</button><button class="bottone-categoria colore8" onclick="evidenzia(this, 'quoteName', 8)">citazioni</button><button class="bottone-categoria colore9" onclick="evidenzia(this, 'foreignName', 9)">lingua straniera</button><button class="bottone-categoria colore10" onclick="evidenzia(this, 'titleName', 10)">opere</button></div>
+         <div id="contenitore-sezioni-articoli">
+            <section id="art1" class="Articoli">
+               <h2>Articolo 1</h2>
+               <div class="contenitore">
+                  <div class="colonna-centro"><img src="N.54_MariaRepettiAmorDiDonna_Pag.34.png" alt="Immagine Articolo 1"></div>
+                  <div class="blocco-destra">
+                     <h3>Vol.3, fasc.54, pag.34, 1879</h3>
+                     <div class="colonna-destra-contenuto">
+                        <h4 class="articolo-head">
+                           <br>
+                           <span class="persName">MARIA REPETTI</span>: AMOR DI DONNA<sup class="nota">*1</sup>
+                           </h4>
+                        <p>
+                           <br>
+                           <span class="titleName">
+                              <i class="italic-text">Amor di donna</i>
+                              </span>
+                           e' il secondo libro che pubblica la signora
+                           <br>
+                           <span class="persName">Maria Repetti</span>.
+                           <br>
+                           Il primo fu <span class="titleName"> <i class="italic-text">Olga</i></span>, un lavoro prolisso, cui l'arte aveva
+                           <br>
+                           sorriso poco; ma pieno d'affetto e di sentimenti delicati.
+                           <br>
+                           Svoltando quelle pagine, un po' pesanti e intricate, si sen- 
+                           <br>
+                           tiva di tratto in tratto lo spasimo e il sospiro profondo
+                           <br>
+                           della donna che si dibatte sotto una sofferenza superiore
+                           <br>
+                           alle sue forze. I critici pero' in complesso furono poco sen- 
+                           <br>
+                           sibili a questi pregi delicati, e il libro passo' quasi inos- 
+                           <br>
+                           servato.
+                           <br>
+                           <span class="titleName"><i class="italic-text">Amor di donna</i></span> invece fu bene accolto, se non dai critici
+                           <br>
+                           in generale, da buona parte dei lettori e, singolarmente,
+                           <br>
+                           delle lettrici.
+                           <br>
+                           <span class="titleName"><i class="italic-text">Amor di donna</i></span>, ci vuol poco a capirlo, dice netto e
+                           <br>
+                           schietto che l'amore e' il supplizio della donna e lo svago
+                           <br>
+                           dell'uomo: che la donna sola ama, nell'alto senso di questa
+                           <br>
+                           sublime parola, cioe' a dire, sacrificando tutta se stessa alla
+                           <br>
+                           felicita' dell'uomo; mentre l'uomo e' sempre un egoista, il
+                           <br>
+                           quale si cura sovratutto del proprio piacere e del pro- 
+                           <br>
+                           prio interesse. Naturalmente vi sono le eccezioni che con- 
+                           <br>
+                           fermano la regola: vi sono donne uomini, e uomini donne,
+                           <br>
+                           e, qua e la', alcuni di quegli esseri straordinari che hanno
+                           <br>
+                           in se' la potenza dell'uomo e la bonta' della donna. La si- 
+                           <br>
+                           gnora <span class="persName">Repetti</span> ci mostra la regola e l'eccezione.
+                           <br>
+                           C'e', tra gli altri personaggi del suo libro, un curato di
+                           <br>
+                           campagna, il quale ha tutte le squisitezze e le delicatezze
+                           <br>
+                           del cuore femminile, e la nobile fermezza, la grandezza ge- 
+                           <br>
+                           nerosa che si attribuisce volentieri all'uomo. C'e' poi una
+                           <br>
+                           donna, <span class="persName">Ilda</span>, di quelle come se ne veggono tante, che ha
+                           <br>
+                           tutto l'egoismo dell'uomo, e non ama nessuno, e per nes- 
+                           <br>
+                           suno si sacrifica.
+                           <br>
+                           Ma i personaggi principali sono due donne nobili e
+                           <br>
+                           grandi, due vere donne, le quali hanno tutte e due la scia- 
+                           <br>
+                           gura d'amare un bel giovinotto, incapace di amare mai piu'
+                           <br>
+                           altri che se' stesso. E la tesi del libro sembra essere questa:
+                           <br>
+                           che quanto piu' valore la donna ha in se' stessa, quanto piu'
+                           <br>
+                           potente e sincero e' l'affetto che offre, tanto piu' e' fatalmente
+                           <br>
+                           difficile che incontri un uomo capace di ricambiarla e di
+                           <br>
+                           comprenderla come si merita. Non e' il nostro compito di
+                           <br>
+                           giudicare la bonta' della tesi, e ci limiteremo a osservare che,
+                           <br>
+                           buona o cattiva, l'Autore l'ha svolta con mano franca e
+                           <br>
+                           sicura.
+                           <br>
+                           <span class="persName">Guido Guidi</span> ha tutte le attrattive esterne, e quel tanto
+                           <br>
+                           di sensibilita' che basta per rovinare una donna, come dissentiamo
+                           <br>
+                           di <span class="persName">Lord Byron</span> una signora che se ne intendeva e lo co- 
+                           <br>
+                           nosceva bene.
+                           <br>
+                           Tra le due fanciulle egli preferisce <span class="persName">Eloisa</span>, e la sposa;
+                           <br>
+                           <sup class="nota">*1
+                              <span class="placeName">Milano</span>,
+                              <span class="persName">Pietro Agnelli</span>,
+                              <span class="dateName">1878</span>.
+                              </sup>
+                           <br>
+                           
+                           ma sa cosi' poco comprenderla, e la rende tanto infelice,
+                           <br>
+                           che la misera si consuma e muore, senza cessar d'amarlo
+                           <br>
+                           un momento, e senza mai lagnarsi. Questa storia di <span class="persName">Eloisa</span>
+                           <br>
+                           e' contenuta nel primo volume - <span class="titleName"><i class="italic-text">Era un angelo</i></span> - il quale
+                           <br>
+                           ha, come forma artistica, un valore di molto superiore al
+                           <br>
+                           secondo, un po' arruffato e convenzionale che s'intitola <span class="titleName"><i class="italic-text">Amira</i></span>.
+                           <br>
+                           La signora <span class="persName">Repetti</span> dovrebbe tenersi al genere semplice,
+                           <br>
+                           alle scene familiari, allo studio minuto di certi caratteri e
+                           <br>
+                           di certi <i class="italic-text">ambienti</i> di tutti i giorni; per le quali cose essa ha
+                           <br>
+                           una singolare attitudine; e dovrebbe lasciare a ingengni piu'
+                           <br>
+                           volgari o piu' forti i grandi intrecci e le scene preparate.
+                           <br>
+                           Dovrebbe pure consacrare un certo tempo allo studio della
+                           <br>
+                           nostra lingua, per troppo generalmente trascurato e che e'
+                           <br>
+                           tanto necessario alla buona riuscita di un lavoro artistico.
+                           
+                           </p>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <section class="Articoli" id="art2">
+               <h2>Articolo 2</h2>
+               <div class="contenitore">
+                  <div class="colonna-centro"><img src="N.59_LibriTestoScuoleSecondarie_P.137.png" alt="Immagine1 Articolo 2"></div>
+                  <div class="blocco-destra">
+                     <h3>Vol.3, fasc.59, pag.137, 1879</h3>
+                     <div class="colonna-destra-contenuto">
+                        <h4 class="articolo-head">
+                           <br>
+                           I LIBRI DI TESTO NELLE SCUOLE SECONDARIE.
+                           </h4>
+                        <p>
+                           <br>
+                           Ai Direttori.
+                           
+                           <br>
+                           L'<span class="abbr" data-expan="onorevole" data-abbr="on.">on.</span>
+                           <span class="persName">Bonghi</span>, quando fu <span class="roleName">ministro</span> della <span class="orgName">Pubblica Istruzione</span>,
+                           <br>
+                           ordino' che tutti i <span class="roleName">professori</span> delle scuole secondarie adottas-
+                           <br>
+                           sero un libro di testo. Ogni <span class="roleName">insegnante</span> era padrone di prendere
+                           <br>
+                           quel libro che piu' gli piaceva; poteva anche comporne uno, che'
+                           <br>
+                           il <span class="roleName">Ministro</span> gli anticipava i fondi occorrenti per farlo litogra-
+                           <br>
+                           fare. Da quattro anni dura un tale stato di cose: son quattro
+                           <br>
+                           anni di prova e non mi sembra inutile richiamare nuovamente
+                           <br>
+                           l'attenzione delle persone che si occupano d'istruzione sopra
+                           <br>
+                           un argomento piu' importante di quanto possa parere a prima
+                           <br>
+                           vista. Il <span class="persName">Bonghi</span> ci dice che visitando molti licei e ginnasi
+                           <br>
+                           del regno, noto' che in parecchie scuole l'insegnamento del
+                           <br>
+                           <span class="roleName">professore</span> era scompagnato dall'aiuto <span class="quoteName">« per piu' rispetti uti-
+                              <br>
+                              lissimo, che alla sua parola viva e' dato da un libro di testo.» </span>
+                           <br>
+                           <span class="quoteName">« L'effetto »</span> continua nella sua circolare, <span class="quoteName">« di questa mancanza
+                              <br>
+                              e' chiarissimo. L'<span class="roleName">alunno</span> e' obbligato a prender note, mentre il
+                              <br>
+                              <span class="roleName">professore</span> parla. Se cio' nuoce agli <span class="roleName">studenti</span> di <span class="orgName">Universita'</span>, gia'
+                              <br>
+                              piu' provetti, nuoce assai piu' agli <span class="roleName">studenti</span> di scuole seconda-
+                              <br>
+                              rie. La mente di questi e' distratta dal ragionamento, mediante
+                              <br>
+                              il quale il <span class="roleName">professore</span> arriva a mano a mano alle sue conclu-
+                              <br>
+                              sioni, per non attendere che a queste. E nel ripetere poi a se'
+                              <br>
+                              medesimo la lezione pone molto maggior cura a metter a
+                              <br>
+                              mente coteste conclusioni, per quanto gli siano rimaste sulla
+                              <br>
+                              carta scarne di illustrazione e di prove, anziche' a riformare
+                              <br>
+                              in se' tutto il discorso, nel quale esse avevano realta' e vita.
+                              <br>
+                              Ora e' in questo discorso o ragionamento, nell'insieme e con-
+                              <br>
+                              testo delle induzioni, delle deduzioni, delle osservazioni di
+                              <br>
+                              ogni sorta, che dal giovine si sente e s'avverte il beneficio
+                              <br>
+                              dell'insegnamento per la progressiva coltura dello spirito suo.
+                              <br>
+                              Quando la lezione gli si converte in poche tesi, prive di luce,
+                              <br>
+                              perde ogni valore educativo per l'intelletto e l'animo suo. » </span>
+                           <br>
+                           Ho riportato questo lungo brano della circolare
+                           n.
+                           numero
+                           422,
+                           <br>
+                           <span class="dateName">24 febbraio 1875</span>, perche' ognun possa vedere qual sia il con-
+                           <br>
+                           cetto che guido' l'<span class="abbr" data-expan="onorevole" data-abbr="on.">on.</span>
+                           <span class="persName">Bonghi</span> a ordinare il libro di testo. Non
+                           <br>
+                           si vuole che l'<span class="roleName">alunno</span> prenda appunti durante la lezione per
+                           <br>
+                           tema che non s'afferri bene il discorso o ragionamento dell' 
+                           <span class="roleName">
+                              <span class="orig" data-reg="insegnante" data-orig="in-">in-</span>
+                              </span>
+                           <br>
+                           <span class="roleName">
+                              <span class="orig" data-reg="HIDE_THIS" data-orig="segnante">segnante</span>
+                              </span>, essendo certo che la mano non corre veloce quanto
+                           <br>
+                           il pensiero e la parola.
+                           <br>
+                           Non voglio negare che per alcune discipline era indispen-
+                           <br>
+                           sabile il libro di testo, ma, per non occuparmi che della sto-
+                           <br>
+                           ria, di cui posso parlare con alquanta cognizione di causa, 
+                           <br>
+                           dico che colla circolare suddetta si ando' incontro a un incon-
+                           <br>
+                           veniente, se non peggiore, certo uguale a quello che si vo-
+                           <br>
+                           leva evitare. Infatti e' verissimo che meglio si comprende un
+                           <br>
+                           discorso collo stare attenti che non col pigliar note. Poiche'
+                           
+                           <br>
+                           
+                           mentre la mente cerca di comprendere l'idea che pare l'abbia
+                           <br>
+                           maggiormente colpita, e la mano fissa sulla carta tale idea, ne
+                           <br>
+                           sfuggono altre che sono pure importanti. Credo che gli <span class="roleName">
+                              <span class="orig" data-reg="stenografi" data-orig="ste-">ste-</span>
+                              </span>
+                           <br>
+                           <span class="roleName">
+                              <span class="orig" data-reg="HIDE_THIS" data-orig="nografi">nografi</span>
+                              </span> della <span class="orgName">Camera dei Deputati</span>, quando consegnano i loro
+                           <br>
+                           appunti, non sappiano nemmen essi cio' che hanno scritto. Ma,
+                           <br>
+                           come ognun vede, per ritenere a mente un discorso logica-
+                           <br>
+                           mente fatto, e' necessaria una continua attenzione ed una
+                           <br>
+                           percezione viva e pronta; altrimenti le idee sfuggono, la
+                           <br>
+                           mente invano cerca di afferrarle e finisce per correre in-
+                           <br>
+                           certa, sin che divaga affatto. Cio' succede a uomini dotti;
+                           <br>
+                           le distrazioni mentali non sono poi un fenomeno straordina-
+                           <br>
+                           rio anche in persone di sommo ingegno e di svegliatissima
+                           <br>
+                           intelligenza; talora si risponde a un'interpellanza in modo
+                           <br>
+                           che pare non si abbia ben compresa la mente di chi parlava; 
+                           <br>
+                           quanti non si addormentano al sentire un discorso accade-
+                           <br>
+                           mico! Se cio' accade a persone che hanno coltura, ingegno e
+                           <br>
+                           riflessione sviluppata, che non avverra' quando si tratti di
+                           <br>
+                           giovani, i quali si trovano in pieno sviluppo fisico, abbon-
+                           <br>
+                           dano di fantasia e volentieri si abbandonano alle dolci illu-
+                           <br>
+                           sioni del mondo che ai loro occhi si schiude? Chiunque ha
+                           <br>
+                           un po' di pratica delle scuole secondarie sapra' benissimo qual
+                           <br>
+                           sia l'attenzione prestata dalla maggior parte dei giovani.
+                           <br>
+                           Quando si riesca a mantenere una severa disciplina
+                           <br>
+                           si avranno gli <span class="roleName">alunni</span> tutti immobili; ma esaminando gli
+                           <br>
+                           occhi dei vostri <span class="roleName">discepoli</span>, voi v'accorgerete facilmente che
+                           <br>
+                           i piu' non prestano se non un'attenzione fittizia, o che il
+                           <br>
+                           cervello lavora in un ordine d'idee ben lontano da quelle
+                           <br>
+                           che state esponendo. Bisogna di quando in quando inter-
+                           <br>
+                           rompere la lezione per richiamare l'uditorio a prestarvi
+                           <br>
+                           ascolto. Se invece voi obbligate tutti gli <span class="roleName">alunni</span> a prendere
+                           <br>
+                           appunti, otterrete almeno una cosa, cioe', che non tutte le
+                           <br>
+                           vostre parole saran gettate al vento. E il giovane, giunto
+                           <br>
+                           a casa, potra' nella sua cameretta, aiutato dalle idee fis-
+                           <br>
+                           sate sulla carta, ricostruire tutto il ragionamento che verra'
+                           <br>
+                           poi sommariamente rifatto nel primo quarto d'ora della le-
+                           <br>
+                           zione susseguente. Io non sostengo che con questo sistema
+                           <br>
+                           si evitino tutti gl'inconvenienti: e' cosa impossibile, poi-
+                           <br>
+                           che' non tutti i giovani hanno la stessa intelligenza e lo
+                           <br>
+                           stesso amore allo studio; affermo soltanto che il resultato
+                           <br>
+                           delle lezioni e' migliore. Col libro di testo si favorisce la
+                           <br>
+                           poltroneria degli <span class="roleName">alunni</span>, e vien diminuito il profitto della
+                           <br>
+                           scuola; coll'obbligo del prendere appunti, lo <span class="roleName">scolaro</span> studioso
+                           <br>
+                           puo' assai piu' facilmente progredire. Parlo per esperienza.
+                           <br>
+                           Ubbidii anch'io alla circolare dell'<span class="abbr" data-expan="onorevole" data-abbr="onor.">onor.</span>
+                           <span class="persName">Bonghi</span>, rispettando
+                           <br>
+                           in lui e il superiore e il dotto; ma, per parlare libera-
+                           <br>
+                           mente, prima, quando non usava il libro di testo, aveva una
+                           <br>
+                           scolaresca piu' attenta, piu' diligente, piu' attiva, e mi sentivo
+                           <br>
+                           moralmente soddisfatto. Ora invece, se dopo essermi sfiatato
+                           <br>
+                           a dimostrare, ad <span class="abbr" data-expan="esempio" data-abbr="es.">es.</span>,
+                           il sorger dei comuni, chiedo spiega-
+                           <br>
+                           zioni ai giovani, il piu' delle volte mi sento rispondere: Non
+                           <br>
+                           c'e' sul libro di testo! Ma dunque perche' si frequenta la
+                           <br>
+                           scuola? Si dara' uno zero, si cerchera' di toccare il cuore, si
+                           <br>
+                           parlera' di sentimento del dovere, di vita sociale, di esami,
+                           <br>
+                           ma non si fara' che un buco nell'acqua: la negligenza pre-
+                           <br>
+                           varra' un'altra volta. Forse il <span class="persName">Bonghi</span> trovo' che in alcune
+                           <br>
+                           scuole non si faceva lezione; si dettava, e tutto il corso si
+                           <br>
+                           riduceva a un esercizio di scrittura sotto dettato. Anche a
+                           <br>
+                           me tocco' un <span class="roleName">professore</span> di storia che seguiva questo bel si-
+                           <br>
+                           stema; ma siffatto sconcio si puo' togliere mediante la vi-
+                           <br>
+                           gilanza del <span class="roleName">preside</span>. D'altra parte, col libro di testo si corre
+                           <br>
+                           pericolo di fare delle lezioni di storia nei ginnasi e nei li-
+                           <br>
+                           cei un esercizio di lettura. Forse in altre scuole ci sara' il
+                           <br>
+                           vizio opposto: si faran lezioni di filosofia della storia; ma
+                           <br>
+                           col libro di testo si evitera' tale abuso? E poi come si vuole
+                           <br>
+                           che sia fatto il libro da darsi agli <span class="roleName">alunni</span>?
+                           <br>
+                           Dice il <span class="persName">Bonghi</span>, nella sovraccitata circolare: <span class="quoteName">« Un libro
+                              <br>
+                              che deve servire di testo ai giovani, per ricordo e conferma</span>
+                           </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="contenitore">
+                  <div class="colonna-centro"><img src="N.59_LibriTestoScuoleSecondarie_P.138.png" alt="Immagine2 Articolo 2"></div>
+                  <div class="blocco-destra">
+                     <h3>Vol.3, fasc.59, pag.138, 1879</h3>
+                     <div class="colonna-destra-contenuto">
+                        <p>
+                           <br>
+                           
+                           
+                           <span class="quoteName">delle lezioni che son fatte dal <span class="roleName">maestro</span>, puo' essere compi-
+                              <br>
+                              lato in piu' modi. O puo' contenere tutta la dottrina in di-
+                              <br>
+                              steso, succintamente esposta; ovvero puo' registrarne solo le
+                              <br>
+                              conclusioni, lasciando alla parola del <span class="roleName">maestro</span> il dedurre, e
+                              <br>
+                              alla memoria ed ingegno dell'<span class="roleName">alunno</span> il rintracciarne le prove:
+                              <br>
+                              ovvero, per ultimo, puo' andar disegnando e notando coteste
+                              <br>
+                              prove, soprattutto quando consistono in osservazioni spe-
+                              <br>
+                              ciali di fatti, o in citazioni di autori, e commettere alla viva
+                              <br>
+                              voce del <span class="roleName">professore</span> e alla mente dell'<span class="roleName">alunno</span> il ricordare e il
+                              <br>
+                              ritrovare le conclusioni. » </span> Sono tutti metodi eccellenti per
+                           <br>
+                           formare un buon libro di testo; ma si scelga l'uno o l'altro
+                           <br>
+                           di questi sistemi, occorre sempre la spiegazione, e s'incontra
+                           <br>
+                           ognora lo scoglio della disattenzione dei giovani. Il giovane
+                           <br>
+                           deve fidarsi troppo della memoria, la quale sovente inganna.
+                           <br>
+                           So che a molti <span class="roleName">insegnanti</span> accade, col sistema di non lasciar
+                           <br>
+                           prendere appunti, di spiegare ben bene una questione e poi
+                           <br>
+                           di sentirsi ripetere cio' che non si e' mai sognato di dire.
+                           <br>
+                           Che poi se si permette di lasciar prendere appunti di quanto
+                           <br>
+                           si dice, tanto fa levare il libro di testo. E pero' se senza
+                           <br>
+                           libro di testo si ha qualche inconveniente, si ottiene per
+                           <br>
+                           altro, a mio modo di vedere, maggiore attenzione dalla
+                           <br>
+                           quale per l'appunto dipende il profitto della scuola. Pertanto
+                           <br>
+                           sarei per l'abolizione del libro di testo, e vorrei che in mano
+                           <br>
+                           ai giovani non si desse che una esatta cronologia. Vegga
+                           <br>
+                           l'attuale <span class="roleName">ministro</span>, se in quanto si venne fin qui dicendo,
+                           <br>
+                           non siavi qualcosa di giusto: veggano gli uomini versati
+                           <br>
+                           nell'insegnamento secondario se non convenga trattare que-
+                           <br>
+                           sta questione piu' a fondo di quanto io non ho saputo fare.
+                           <br>
+                           La discussione non potra' non essere feconda di buoni
+                           <br>
+                           risultati e forse si trovera' un rimedio all'apatia che oggidi'
+                           <br>
+                           regna in molte delle nostre scuole.
+                           <br>
+                           Un altro argomento, degno di essere trattato nelle co-
+                           <br>
+                           lonne di questa <span class="titleName">Rassegna</span>, sarebbe quello delle assenze. Gli
+                           <br>
+                           <span class="roleName">alunni</span> soventi volte <i class="italic-text">bruciano</i> le lezioni; i padri son lontani
+                           <br>
+                           e nessuno se ne occupa. I <span class="roleName">presidi</span> possono sospendere dalle
+                           <br>
+                           lezioni; ma il rimedio non e' peggiore del male? Non sa-
+                           <br>
+                           rebbe bene rimettere la cosi' detta carta d'ammissione?
+                           <br>
+                           <i class="italic-text">Devot.</i> 
+                           <span class="persName">
+                              C.F.
+                              </span>
+                           
+                           
+                           </p>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <section class="Articoli" id="art3">
+               <h2>Articolo 3</h2>
+               <div class="contenitore">
+                  <div class="colonna-centro"><img src="N.87_LaTutelaDellaVitaDegliOperai_P.148.png" alt="Immagine Articolo 3"></div>
+                  <div class="blocco-destra">
+                     <h3>Vol.4, fasc.87, pag.148, 1879</h3>
+                     <div class="colonna-destra-contenuto">
+                        <h4 class="articolo-head">
+                           <br>
+                           LA TUTELA DELLA VITA DEGLI OPERAI.
+                           <br>
+                           CORRISPONDENZA DA MILANO.
+                           </h4>
+                        <p>
+                           <br>
+                           <span class="dateName">28 agosto 1879</span>
+                           <br>
+                           Fino dall'anno <span class="dateName">1874</span> fu fondata in <span class="placeName">Milano</span> una
+                           <span class="orgName">
+                              <span class="orig" data-reg="Associazione" data-orig="Asso-">Asso-</span>
+                              </span>
+                           <br>
+                           <span class="orgName">
+                              <span class="orig" data-reg="HIDE_THIS" data-orig="ciazione">ciazione</span>
+                              </span> di mutuo soccorso fra gli addetti all'arte edilizia.
+                           <br>
+                           Dessa in oggi conta circa 400 <span class="roleName">soci</span>, fra cui <span class="roleName">ingegneri</span> e
+                           <br>
+                           <span class="roleName">capi-mastri</span> quali <span class="roleName">soci</span> contribuenti, e <span class="roleName">mastri-muratori</span> e
+                           <br>
+                           manuali quali <span class="roleName">soci</span> effettivi fruenti del mutuo soccorso.
+                           <br>
+                           L'<span class="orgName">associazione</span> sorse per iniziativa d'<span class="roleName">ingegneri</span> e
+                           <span class="roleName">
+                              <span class="orig" data-reg="capi-mastri" data-orig="capi-ma-">capi-ma-</span>
+                              </span>
+                           <br>
+                           <span class="roleName">
+                              <span class="orig" data-reg="HIDE_THIS" data-orig="stri">stri</span>
+                              </span> onde venire appunto in aiuto agli <span class="roleName">operai muratori</span>
+                           <br>
+                           esposti forse piu' che altri a pericoli e disgrazie, e per rial- 
+                           <br>
+                           zare le sorti di un preesistente sodalizio, sorto nel <span class="dateName">1800</span>
+                           <br>
+                           sotto il nome di <span class="orgName">Societa'</span> di <span class="roleName">muratori</span>. Questo sodalizio con- 
+                           <br>
+                           tava alla sua origine un novecento <span class="roleName">soci</span>, e poteva disporre
+                           <br>
+                           di un capitale di circa 40 mila lire; ma, come anche altre
+                           <br>
+                           simili <span class="orgName">Societa'</span>, fra noi ed all'estero, assunse appalti per
+                           <br>
+                           aumentare il suo peculio, e fu ridotto dopo pochi anni a
+                           <br>
+                           pochi <span class="roleName">soci</span>, ed a poche migliaia di lire non sufficenti a far
+                           <br>
+                           fronte agli impegni.
+                           <br>
+                           L'<span class="orgName">associazione</span>, invece, che gli subentro' si e' messa per
+                           <br>
+                           altra via ed al <span class="dateName">31 dicembre 1878</span> faceva gia' risalire il ca- 
+                           <br>
+                           pitale sociale alla cifra di 22 mila lire. Non e' ancora capi- 
+                           <br>
+                           tale vistoso, per cui finora non si e' potuto rispondere,
+                           <br>
+                           come si desidera, a tutti gli intenti per quali fu creata l'<span class="orgName">
+                              <span class="orig" data-reg="Associazione" data-orig="as-">as-</span>
+                              </span>
+                           <br>
+                           <span class="orgName">
+                              <span class="orig" data-reg="HIDE_THIS" data-orig="sociazione">sociazione</span>
+                              </span>, ma questi risultati provano la buona direzione
+                           <br>  
+                           e fanno sperar bene per l'avvenire. Gli scopi sociali sono
+                           <br>
+                           quattro, per ciascuno dei quali corrisponde un fondo spe- 
+                           <br>
+                           ciale, e cioe': soccorso ai <span class="roleName">soci</span> nei casi di malattia; soccorso
+                           <br>
+                           nei casi di disgrazia, estendibile, date speciali condizioni,
+                           <br>
+                           anche alle famiglie dei <span class="roleName">soci</span>, quando l'operaio soccomba;
+                           <br>
+                           sussidi di vecchiaia od impotenza di lavoro; sussidi per le
+                           <br>
+                           spese funebri. Il suo <span class="orgName">Consiglio d'amministrazione</span> e' compo- 
+                           <br>
+                           sto d'<span class="roleName">ingegneri</span>, <span class="roleName">capi-mastri</span>, e <span class="roleName">mastri-muratori</span>. Nella classe
+                           <br>
+                           degli <span class="roleName">ingegneri</span>, dei <span class="roleName">capi-mastri</span>, degli <span class="roleName">intraprenditori</span> cerca
+                           <br>
+                           e trova i <span class="roleName">benefattori</span> per aumentare il capitale sociale; fra
+                           <br>
+                           gli <span class="roleName">operai-muratori</span>, i <span class="roleName">soci</span>, che mediante la contribuzione
+                           <br>
+                           di centesimi 25 la settimana se <span class="roleName">muratori</span>, e di centesimi 15
+                           <br>
+                           se manuali, concorrono a formare il reddito annuo pei sus- 
+                           <br>
+                           sidi. Pero' l'opera sua non vuol essere soltanto di soccorso,
+                           <br>
+                           ma altresi' in certo qual modo preventiva, e per questa affido'
+                           <br>
+                           ad una <span class="orgName">Commissione</span>, fra gli altri incarichi, quello di stu- 
+                           <br>
+                           diare e di suggerire i modi per prevenire od almeno dimi- 
+                           <br>
+                           nuire le disgrazie.
+                           <br>
+                           Questa <span class="orgName">Commissione</span>, nella quale entrano <span class="roleName">ingegneri</span>,
+                           <span class="roleName">
+                              <span class="orig" data-reg="capi-mastri" data-orig="capi-">capi-</span>
+                              </span>
+                           <br>
+                           
+                           <span class="roleName">
+                              <span class="orig" data-reg="HIDE_THIS" data-orig="mastri">mastri</span>
+                              </span> e <span class="roleName">mastri-muratori</span>, presentava non e' molto una re- 
+                           <br>  
+                           lazione, della quale non mi pare inutile darvi qualche no- 
+                           <br>
+                           tizia, essendosi appunto il vostro periodico gia' occupato della
+                           <br>
+                           questione.<sup class="nota">*2</sup>
+                           <br>
+                           La <span class="orgName">Commissione</span>, nel desiderio di avere una esatta sta- 
+                           <br>
+                           tistica dei casi di disgrazie, e delle cause che le produ- 
+                           <br>
+                           cono, si diede dapprima alle opportune richerche, ma pur
+                           <br>
+                           troppo non ha potuto raccogliere tutti gli elementi neces- 
+                           <br>
+                           sari. Ricorse allora alle note del nostro <span class="orgName">Ospedale Maggiore</span>
+                           <br>
+                           e dietro queste giunse a stabilire che nella nostra citta' la
+                           <br>
+                           media mensile dei feriti o contusi per cadute da ponti, ro- 
+                           <br>
+                           vine di fabbriche etc. e' di 7,41.
+                           <br>
+                           Perche' pero' questa media avesse un valore reale biso- 
+                           <br>
+                           gnerebbe fosse distinta secondo le cause e fosse in relazione
+                           <br>
+                           col numero delle costruzioni e degli <span class="roleName">operai</span> impiegati, cio'
+                           <br>
+                           che non si e' potuto ottenere per mancanza di indicazioni.
+                           <br>
+                           In ogni modo sta il fatto, che le disgrazie avvengono per
+                           <br>
+                           la massima parte in conseguenza di trascuratezza o di
+                           <br>
+                           ignoranza dei provvedimenti atti ad evitarle, o per col- 
+                           <br>
+                           pevole avidita' di lucro dei costruttori.
+                           <br>
+                           La <span class="orgName">Commissione</span> pertanto assente con voi nell'opinione,
+                           <br>
+                           che in <span class="placeName">Italia</span> occorre una legge speciale per tutelare la
+                           <br>
+                           vita degli operai, legge che gia' si trova in altri paesi e tale
+                           <br>
+                           che sia piu' efficace dell'che sia piu' efficace dell’
+                           <span class="abbr" data-expan="articolo" data-abbr="art.">art.</span>
+                           1151 e seguenti del <span class="titleName">codice civile</span>
+                           <br>
+                           italiano; e che l'azione a favore dei danneggiati sia mossa
+                           <br>
+                           dalle stesse <span class="roleName">autorita' di polizia giudiziaria</span>, perche' in ge- 
+                           <br>
+                           nere  questi danneggiati sono poveri <span class="roleName">operai</span> ignari delle
+                           <br>
+                           formalita' di procedura, o senza mezzi per far valere le
+                           <br>
+                           loro ragioni davanti ai <span class="orgName">tribunali</span>. E cosi' conclude invitando
+                           <br>
+                           la presidenza dell'<span class="orgName">Associazione</span> a farsi iniziatrice di una
+                           <br>
+                           petizione in questo senso al <span class="orgName">Parlamento</span>. E onde la sua
+                           <br>
+                           domanda riesca piu' autorevole, la vorrebbe appoggiata dal
+                           <br>
+                           voto anche del nostro
+                           <span class="orgName">Collegio degli Ingegneri ed</span>
+                           <span class="orgName">
+                              <span class="orig" data-reg="Architetti" data-orig="Archi-">Archi-</span>
+                              </span>
+                           <br>
+                           <span class="orgName">
+                              <span class="orig" data-reg="HIDE_THIS" data-orig="tet­ti">tet­ti</span>
+                              </span>. Il <span class="orgName">municipio</span> di <span class="placeName">Milano</span>, che fino dal principio del secolo
+                           <br>
+                           usa rilasciare patenti per l'esercizio dell'arte del
+                           <span class="roleName">
+                              <span class="orig" data-reg="capo-mastro" data-orig="capo-">capo-</span>
+                              </span>
+                           <br>
+                           <span class="roleName">
+                              <span class="orig" data-reg="HIDE_THIS" data-orig="mastro">mastro</span>
+                              </span> dietro regolari esami di idoneita', aveva nelle sue
+                           <br>
+                           antiche licenze per fabbriche, particolareggiate e severe pre- 
+                           <br>
+                           scrizioni per la costruzione dei ponti, per le grossezze e
+                           <br>
+                           qualita' dei muri etc., ed anche in un nuovo regolamento
+                           <br>
+                           edilizio proposto all'approvazione del <span class="orgName">governo</span>, aveva intro- 
+                           <br>
+                           dotto parte di queste prescrizioni, ma il <span class="orgName">ministero</span> le tolse
+                           <br>
+                           quasi tutte, cosi' ora bazza a chi tocca. Una legge dunque e'
+                           <br>
+                           necessaria, e tale che non sia lettera morta come molte altre.
+                           <br>
+                           <sup class="nota">*2
+                              
+                              <span class="persName">
+                                 V.
+                                 
+                                 </span>,
+                              vol. II,
+                              <span class="abbr" data-expan="numero" data-abbr="n.">n.</span>
+                              
+                              32
+                              ,
+                              <span class="abbr" data-expan="pagina" data-abbr="p.">p.</span>
+                                
+                              427
+                              ;
+                              e
+                              vol. III,
+                              66,
+                              256.
+                              
+                              </sup>
+                           </p>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <section id="bibl1" class="Articoli">
+               <h2>Bibliografia 1</h2>
+               <div class="contenitore">
+                  <div class="colonna-centro"><img src="N.60_Bibliografia_ItemLetteratura_P.156.png" alt="Immagine Bibliografia 1"></div>
+                  <div class="blocco-destra">
+                     <h3>Vol.3, fasc.60, pag.156, 1879</h3>
+                     <div class="colonna-destra-contenuto">
+                        <h4 class="articolo-head">
+                           <br>
+                           BIBLIOGRAFIA.
+                           <br>
+                           LETTERATURA.
+                           </h4>
+                        <p>
+                           
+                           <br>
+                           <span class="persName">P. G. MOLMENTI</span>,
+                           <span class="titleName">Nuove impressioni Letterarie</span>.
+                           — <span class="placeName">Torino</span>,
+                           <br>
+                           Camilla e Bertolero,
+                           <span class="dateName">1878</span>.
+                           
+                           <br>
+                           Se la <span class="titleName">Rassegna</span> fosse capace di rimorsi, questo libro,
+                           <br>
+                           che distilla tante fragranti essenze di lodi e ne cosparge
+                           <br>
+                           tanti fortunati <span class="roleName">scrittori</span>, dovrebbe farlene provare parecchi.
+                           <br>
+                           Non vogliamo con questo fare un rimprovero al signor
+                           <span class="persName">
+                              <span class="orig" data-reg="Molmenti" data-orig="Mol-">Mol-</span>
+                              </span>
+                           </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="contenitore">
+                  <div class="colonna-centro"><img src="N.60_Bibliografia_ItemLetteratura_P.157.png" alt="Immagine2 Bibliografia 1"></div>
+                  <div class="blocco-destra">
+                     <h3>Vol.3, fasc.60, pag.157, 1879</h3>
+                     <div class="colonna-destra-contenuto">
+                        <p>
+                           <br>
+                           
+                           
+                           <span class="persName">
+                              <span class="orig" data-reg="HIDE_THIS" data-orig="menti">menti</span>
+                              </span>, perche' anzi crediamo che in una critica
+                           d'<i class="italic-text">
+                              <span class="orig" data-reg="impressioni" data-orig="impres-">impres-</span>
+                              </i>
+                           <br>
+                           <i class="italic-text">
+                              <span class="orig" data-reg="HIDE_THIS" data-orig="sioni">sioni</span>
+                              </i> e che riguarda quasi piu' l'uomo che l'opera sua, uno
+                           <br>
+                           <span class="roleName">scrittore</span> onesto e gentile, come il <span class="persName">Molmenti</span>, non volendo
+                           <br>
+                           imitare certe brutte licenze di certa <i class="italic-text">libera stampa</i>, non ha
+                           <br>
+                           nulla di meglio da fare che spigolare il meno male anche
+                           <br>
+                           d'un lavoro cattivo e lodar tutti colla carita' indulgente e
+                           <br>
+                           amorevole dell'amicizia. Non possiamo a meno pero' di pen- 
+                           <br>
+                           sare all'<i class="italic-text">impressione</i> di coloro, che <span class="quoteName">questo tempo chiameranno
+                              <br>
+                              antico</span> e vorranno per caso studiare la nostra storia lette- 
+                           <br>
+                           raria sui libri del signor <span class="persName">Molmenti</span>. Altro che secoli di
+                           <span class="persName">
+                              <span class="orig" data-reg="Pericle" data-orig="Pe-">Pe-</span>
+                              </span>
+                           <br>
+                           <span class="persName">
+                              <span class="orig" data-reg="HIDE_THIS" data-orig="ricle">ricle</span>
+                              </span> e di <span class="persName">Leon X</span>! Crederanno di trovarsi addirittura nei
+                           <br>
+                           <span class="foreignName">Saturnia regna</span> delle belle lettere! In conclusione se il
+                           <span class="persName">
+                              <span class="orig" data-reg="Molmenti" data-orig="Mol-">Mol-</span>
+                              </span>
+                           <br>
+                           <span class="persName">
+                              <span class="orig" data-reg="HIDE_THIS" data-orig="menti">menti</span>
+                              </span>, cosi' colto e vivace <span class="roleName">scrittore</span>, vorra' moderare al- 
+                           <br>
+                           quanto il suo ottimismo, gli autori contemporanei ci rimet- 
+                           <br>
+                           teranno il grato solletico di qualche lode, ma le lettere
+                           <br>
+                           italiane avranno maggior ragione d'essergli grate.
+                           </p>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <section id="bibl2" class="Articoli">
+               <h2>Bibliografia 2</h2>
+               <div class="contenitore">
+                  <div class="colonna-centro"><img src="N.194_Bibliografia_ItemRecensioneLuigiCapuana_P.190.png" alt="Immagine Bibliografia 2"></div>
+                  <div class="blocco-destra">
+                     <h3>Vol.8, fasc.194, pag.190, 1881</h3>
+                     <div class="colonna-destra-contenuto">
+                        <h4 class="articolo-head">
+                           <br>
+                           BIBLIOGRAFIA.
+                           </h4>
+                        <p>
+                           
+                           <br>
+                           <span class="persName">LUIGI CAPUANA</span>, <span class="titleName">Un bacio</span>. - <span class="placeName">Milano</span>, <span class="persName">Giuseppe Ottino</span>
+                           
+                           <span class="orig" data-reg="editore" data-orig="edi-">edi-</span>
+                           
+                           <br>
+                           
+                           <span class="orig" data-reg="HIDE_THIS" data-orig="tore">tore</span>
+                           , <span class="dateName">1881</span>.
+                           
+                           <br>
+                           Sono sei novelle, raccolte sotto il titolo della prima, all'uso
+                           <br>
+                           francese; e piu' una dedica a <span class="titleName">Fasma</span> che non e' lo scritto meno
+                           <br>
+                           brioso e piacevole del volumetto. Un <span class="titleName">Bacio</span>, non ostante la
+                           <br>
+                           notata prerogativa, non e' cosa d'importanza; una signora
+                           <br>
+                           lungamente corteggiata da un gentiluomo ha promesso di
+                           <br>
+                           dargli mano di sposa, quando egli le carpisca un bacio; e que-
+                           <br>
+                           sti riesce all'impresa, mentre la bella donna dorme... o piut-
+                           <br>
+                           tosto mentre finge di dormire. <span class="quoteName">Ti volevo bene... e avevo capito!</span>
+                           <br>
+                           Cosi' spiega poi il caso ella stessa all'amante divenuto marito.
+                           <br>
+                           <span class="quoteName">Stranezza del cuore umano!</span> Aggiunge l'<span class="abbr" data-expan="Autore" data-abbr="A.">A.</span> - Ma tocca al let-
+                           <br>
+                           tore l'indovinare le ragioni del fenomeno psicologico: e' un
+                           <br>
+                           grazioso fatterello e non piu'. - <span class="titleName">Contrasto</span> merita maggior-
+                           <br>
+                           mente il titolo di novella: e' l'antitesi fra l'amor vero e l'amor
+                           <br>
+                           sensuale, dipinta non senza originalita'. - <span class="titleName">L'idea di Piula</span> e'
+                           <br>
+                           il ritratto satirico d'un uomo che fingendosi <span class="roleName">poeta</span> di sensi
+                           <br>
+                           squisiti non mira se non alla prosa del denaro. - <span class="titleName">Storia
+                              <br>
+                              fosca</span> e' la storia d'una seduzione, al modo di <span class="persName">Fedra</span>, con un
+                           <br>
+                           <span class="persName">Ippolito</span> siciliano, meno rigido e piu' carnale dell'antico; co-
+                           <br>
+                           lorita cosi', a rapidi tocchi e con immagini di studiato na-
+                           <br>
+                           turalismo, fa venire la pelle d'oca. I due ultimi racconti appar-
+                           <br>
+                           tengono alla maniera fantastica messa in voga dal <span class="persName">Poe</span>; ma
+                           
+                           <br>
+                           
+                           l'una (<span class="titleName">Un caso di sonnambulismo</span>) ha poca originalita', e per
+                           <br>
+                           quanta arte v'abbia l'<span class="abbr" data-expan="Autore" data-abbr="A.">A.</span>, non giunge a produrre intie-
+                           <br>
+                           ramente quella intensita' d'impressione che conquide l'animo e
+                           <br>
+                           tien luogo di credibilita'. L'altra (<span class="titleName">Il dottor Cymbalus</span>) racchiude
+                           <br>
+                           in germe un'idea ingegnosa e peregrina. Trattasi d'un gio-
+                           <br>
+                           vane che, tormentato da passione, sta per uccidersi; un
+                           <br>
+                           amico lo conduce da un dotto <span class="roleName">fisiologo</span> il quale ha scoperto il
+                           <br>
+                           segreto di render l'uomo insensibile mediante una semplice
+                           <br>
+                           e sicura operazione. Pregato e ripregato questi consente, an-
+                           <br>
+                           corche' a malincuore, a fare l'esperimento della sua scienza,
+                           <br>
+                           per salvare almeno la vita al giovane infelice. Il quale peraltro
+                           <br>
+                           ormai privo della facolta' di amare, dopo un breve periodo di
+                           <br>
+                           benessere, si trova piu' infelice di prima per quel vuoto che
+                           <br>
+                           sente in se' e che nulla puo' colmare: sicche', finisce col sui-
+                           <br>
+                           cidarsi, legando il suo patrimonio all'amico e al <span class="persName">
+                              <span class="roleName">dottor</span>
+                              
+                              <span class="orig" data-reg="Cymbalus" data-orig="Cym-">Cym-</span>
+                              
+                              </span>
+                           <br>
+                           <span class="persName">
+                              
+                              <span class="orig" data-reg="HIDE_THIS" data-orig="balus">balus</span>
+                              
+                              </span> perche' costituiscano una scuola gratuita ove s'insegni
+                           <br>
+                           ad amare. Si potrebbe chiedere come mai divenuto insensi-
+                           <br>
+                           bile, il protagonista <i class="italic-text">senta</i> tuttavia la mancanza della facolta'
+                           <br>
+                           d'amare. Ma obiezioni di tal genere si troverebbero da fare
+                           <br>
+                           in molte storie fantastiche: piuttosto avremmo voluto che
+                           <br>
+                           l'<span class="abbr" data-expan="Autore" data-abbr="A.">A.</span> svolgesse piu' largamente e piu' profondamente il proprio
+                           <br>
+                           tema, mentre si trattiene piu' sugli accessorii che sulla parte
+                           <br>
+                           sostanziale. Ad ogni modo questa, al pari delle altre novelle,
+                           <br>
+                           e' narrata con garbata disinvoltura e si legge con diletto.
+                           
+                           </p>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <section id="notizie" class="Articoli">
+               <h2>Notizie</h2>
+               <div class="contenitore">
+                  <div class="colonna-centro"><img src="N.60_Notizie2Item_P.160.png" alt="Immagine Notizie"></div>
+                  <div class="blocco-destra">
+                     <h3>Vol.3, fasc.60, pag.190, 1879</h3>
+                     <div class="colonna-destra-contenuto">
+                        <h4 class="articolo-head">
+                           <br>
+                           NOTIZIE.
+                           </h4>
+                        
+                        <br>
+                        La fonderia di <span class="placeName">Monaco</span> e' stata incaricata di fondere il
+                        
+                        <span class="orig" data-reg="Monumento nazionale tedesco" data-orig="Monu-">Monu-</span>
+                        
+                        <br>
+                        
+                        <span class="orig" data-reg="HIDE_THIS" data-orig="mento nazionale tedesco">mento nazionale tedesco</span>
+                         che si ha in animo di erigere nel <span class="placeName">Niederwald</span>,
+                        <br>
+                        presso <span class="placeName">Bingen sul Reno</span>. Il lavoro e' disegnato dal
+                        <span class="abbr" data-expan="professore" data-abbr="prof.">prof.</span>
+                        <span class="persName">Schilling</span> di
+                        <br>
+                        <span class="placeName">Dresda</span>. Sopra un piedistallo alto ventiquattro metri sta una figura in
+                        <br>
+                        piedi della <span class="placeName">Germania</span> che addita colla mano alzata il simbolo dell'unita'
+                        <br>
+                        germanica, la corona imperiale. La figura, alta dieci metri, e' conside- 
+                        <br>
+                        rata, da persone competenti, un tionfo dell'arte plastica tedesca. Il
+                        <br>
+                        modello deve essere trasportato in breve a <span class="placeName">Monaco</span> con un treno spe- 
+                        <br>
+                        ciale, e sara' messo insieme avanti il getto. Il costo del Monumento e'
+                        <br>
+                        finora di 1,100,000 marchi, ma ne occorrono altri 350,000.<sup class="nota">(Academy)</sup>
+                        
+                        
+                        
+                        <br>
+                        La Mostra antropologica che si terra' a <span class="placeName">Mosca</span> nell'estate pros- 
+                        <br>
+                        sima avra' molta importanza. Oltre una serie di illustrazioni grafiche
+                        <br>
+                        della vita dell'uomo preistorico, vi saranno esposti molti modelli di
+                        <br>
+                        caverne, scheletri, e molti altri oggetti preistorici. Le cosi' dette
+                        
+                        
+                        <br>
+                         o tombe preistoriche vi saranno rappresentate, coi modelli degli
+                        <br>
+                        scheletri nelle loro varie posizioni esattamente riprodotte, ed altri og- 
+                        <br>
+                        getti in quelle tombe trovati. I crani preistorici formeranno una sezione
+                        <br>
+                        separata.
+                        
+                        </div>
+                  </div>
+               </div>
+            </section>
+         </div>
+      </div>
+      <div id="glossario">
+         <div id="glossario-container">
+            <h1>Glossario</h1>
+            <div class="glossario-sezione">
+               <h2>Persone</h2>
+               <ul>
+                  <li><b>P.G. Molmenti</b></li>
+                  <li><b>Bonghi</b></li>
+                  <li><b>C.F.</b></li>
+                  <li><b>Luigi Capuana</b></li>
+                  <li><b>Giuseppe Ottino</b></li>
+                  <li><b>Fedra</b></li>
+                  <li><b>Ippolito</b></li>
+                  <li><b>Poe</b></li>
+                  <li><b>dottor Cymbalus</b></li>
+                  <li><b>Maria Repetti</b></li>
+                  <li><b>Ilda</b></li>
+                  <li><b>Guido Guidi</b></li>
+                  <li><b>Lord Byron</b></li>
+                  <li><b>Eloisa</b></li>
+                  <li><b>Pietro Agnelli</b></li>
+                  <li><b>V.</b></li>
+                  <li><b>Pericle</b></li>
+                  <li><b>Leon X</b></li>
+                  <li><b>Schilling</b></li>
+               </ul>
+            </div>
+            <div class="glossario-sezione">
+               <h2>Organizzazioni</h2>
+               <ul>
+                  <li><b>Universita' di Pisa</b></li>
+                  <li><b>Pubblica Istruzione</b></li>
+                  <li><b>Camera dei Deputati</b></li>
+                  <li><b>Universita'</b></li>
+                  <li><b>Associazione</b></li>
+                  <li><b>Societa'</b></li>
+                  <li><b>Consiglio d'amministrazione</b></li>
+                  <li><b>Commissione</b></li>
+                  <li><b>Ospedale Maggiore</b></li>
+                  <li><b>tribunali</b></li>
+                  <li><b>Parlamento</b></li>
+                  <li><b>Collegio degli Ingegneri e degli Architetti</b></li>
+                  <li><b>municipio</b></li>
+                  <li><b>governo</b></li>
+                  <li><b>ministero</b></li>
+               </ul>
+            </div>
+            <div class="glossario-sezione">
+               <h2>Luoghi</h2>
+               <ul>
+                  <li><b>Milano</b></li>
+                  <li><b>Italia</b></li>
+                  <li><b>Torino</b></li>
+                  <li><b>Monaco</b></li>
+                  <li><b>Niederwald</b></li>
+                  <li><b>Bingen sul Reno</b></li>
+                  <li><b>Dresda</b></li>
+                  <li><b>Germania</b></li>
+                  <li><b>Mosca</b></li>
+               </ul>
+            </div>
+         </div>
+      </div>
+      <section id="about" class="about-section">
+         <div class="about-content">
+            <h2>About</h2>
+            <p>Progetto realizzato da: Raffaele Russo e Veronica Bonora</p>
+            <p>Corso di Codifica di Testi - A.A. 2024/2025</p>
+            <p>Coordinamento: Prof. Angelo Mario Del Grosso</p>
+            <p>Per visualizzare la versione digitale della rivista consultare il sito: <a href="https://rassegnasettimanale.animi.it" target="_blank" class="link">https://rassegnasettimanale.animi.it</a>
+               </p>
+            <div class="about-icons"><i class="fa-solid fa-graduation-cap"></i><i class="fa-solid fa-university"></i></div>
+         </div>
+      </section>
+   </body>
+</html>
